@@ -37,7 +37,7 @@ a.header-a:hover{
   padding: 10px;
   font-size: 30px;
   text-align: left;
-  border: 20px double yellow;
+  /* border: 20px double yellow; */
 }
 .about{
   position: relative;
