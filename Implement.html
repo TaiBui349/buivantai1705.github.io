@@ -17,7 +17,12 @@
         border: 1px solid #888;
         width: 80%; /* Could be more or less, depending on screen size */
       }
-        </style>
+      #ic{
+        margin-left: 60px;
+
+      }
+      .
+      </style>
   <body>
     <div class="fluid-container">
     <!-- Lab -->
@@ -39,41 +44,106 @@
       <!-- header -->
     <div class="">
       <ul class="header">
-        <div class="love-music" href="Implement.html">  <div> Love Music  </div> </div>
+        <div class="love-music" href="Implement.html">  <div> <a href="Implement.html">Love Music</a>  </div> </div>
   <!-- tìm kiếm -->
         <li id="button">
-          <form class="form-search" style="margin:auto">
-            <input type="text" class="input-medium" value="Từ khóa tìm kiếm ...">
-            <button type="submit"><i class="fa fa-search"></i></button>
-          </form>
+          <div>
+            <form class="form-search" style="margin:auto">
+              <input type="text" class="input-medium" value="Từ khóa tìm kiếm ...">
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+          </div>
         </li>
 <!-- singn in -->
       <li id="button">
-          <button onclick="document.getElementById('id01').style.display='block'" type="button" name="button" class="btn btn-primary active">  Sign in </button>
+          <button onclick="document.getElementById('id01').style.display='block'" type="button" name="button" class="btn btn-primary active">  Đăng nhập </button>
           <div>
-            <form id="id01" class="modal" style="width: 300px; height: 500px; background-color: blue; text-align: left">
+
+            <form id="id01" class="modal" style="width: 300px; height: 550px; background-color: #DEA8C7; text-align: left;">
               <div class="imgcontainer">
                     <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-                    <img src="17130198_Design/avt.jpg" alt="Avatar" class="avatar">
+                    <img style="padding: 20px" src="17130198_Design/avt.jpg" alt="Avatar" class="avatar">
                   </div>
 
               <div class="form-group">
-                <label for="myEmail">Email</label>
-                <input type="email" id = "myEmail" class="form-control" placeholder="Email">
-
-                <label for="myPassword">Password</label>
-                <input type="password" id="myPassword" class="form-control" placeholder="Password"> <p></p>
-                <button type="submit" class="btn btn-primary">Sign in</button>
+                <div>
+                  <label for="myEmail">Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                </div>
+                <div>
+                  <label for="myPassword">Password</label>
+                  <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                </div>
+                <div class="checkbox">
+                  <label><input type = "checkbox"> Remember</label>
+                </div>
+                <div>
+                <button  type="submit" class="btn btn-danger">Sign in</button>
+                </div>
               </div>
             </form>
           </div>
+      </li>
+
+<!-- register -->
+      <li>
+        <div>
+            <button onclick="document.getElementById('id02').style.display='block'" type="button" name="button" class="btn btn-primary active"> Đăng kí </button>
+            <div class="container-fluid mt-3">
+              <form id="id02" class="modal" style="width: 500px; height: 800px; background-color: silver; text-align: left">
+                  <div class="form-group">
+                      <label>Họ và Tên: </label>
+                      <input type="text" class="form-control" value="Ex: Bùi Văn Tài">
+                  </div>
+
+                  <div class="form-group">
+                      <label>Số điện thoại :</label>
+                      <input type="text" class="form-control" value="0968367953">
+                  </div>
+                  <div class="form-group">
+                      <label>Địa chỉ :</label>
+                      <input type="text" class="form-control" value="Ex: Xuan Loc district, Dong Nai province">
+                  </div>
+                  <div class="form-group">
+                      <label>Email :</label>
+                      <input type="email" class="form-control" value="nhokponraba@gmail.com">
+                  </div>
+                  <div class="form-group">
+                    <label>Mật khẩu: </label>
+                    <input type="password" class="form-control" value="Abcxyz123">
+                  </div>
+                  <div class="form-group">
+                    <label>Nhập lại mật khẩu: </label>
+                    <input type="password" class="form-control" value="Abcxyz123">
+                  </div>
+                  <div>
+                      <button type="submit" class="btn btn-danger">Register</button>
+                  </div>
+              </form>
+            </div>
+
+        </div>
       </li>
 
       </ul>
     </div>
 
 
-
+    <div class="header-top-menu">
+      <nav>
+        <ul class="navbar navbar-expand-sm bg-dark navbar-dark" style="list-style-type: none;">
+          <li style="margin-left: 100px" id="ic" > <a href="">Bài hát</a> </li>
+          <li id="ic"> <a href="#">Chủ đề</a> </li>
+          <li id="ic"> <a href="#">BXH</a> </li>
+          <li id="ic"> <a href="#">Album</a> </li>
+          <li id="ic"> <a href="#">Music Video</a> </li>
+          <li id="ic"> <a href="#">Nghệ sĩ</a> </li>
+          <li id="ic"> <a href="#">Hóng sao</a> </li>
+          <li id="ic"> <a href="" target="_blank">Vip</a> </li>
+          <li id="ic"> <a href="#" target="_blank">Mã khuyến mãi</a> </li>
+        </ul>
+      </nav>
+    </div>
     <div id="image">
       <img src="17130198_Design\n2.jpg" alt="">
       <img src="17130198_Design\n1.png" alt="">
