@@ -13,15 +13,25 @@
       }
       .modal-content {
         background-color: #fefefe;
-        margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+        margin: 5% auto 15% auto;
         border: 1px solid #888;
-        width: 80%; /* Could be more or less, depending on screen size */
+        width: 80%;
       }
-      #ic{
+      #ic {
         margin-left: 60px;
-
       }
-      .
+      #ic a:hover{
+        color: #4D8321;
+        background-color: yellow;
+        text-decoration: none;
+        display: block;
+      }
+      ul.submenu {
+        list-style: none;
+        width: 250px;
+        min-height: 150px;
+        display: none;
+      }
       </style>
   <body>
     <div class="fluid-container">
@@ -131,9 +141,15 @@
 
     <div class="header-top-menu">
       <nav>
-        <ul class="navbar navbar-expand-sm bg-dark navbar-dark" style="list-style-type: none;">
+        <ul class="navbar navbar-expand-sm bg-dark navbar-dark" style="list-style: none">
           <li style="margin-left: 100px" id="ic" > <a href="">Bài hát</a> </li>
-          <li id="ic"> <a href="#">Chủ đề</a> </li>
+          <li id="ic" style=> <a href="#">Chủ đề</a>
+            <ul class="submenu">
+              <li id="sub" > <a href="#">Nổi bật</a> </li>
+              <li> <a href="#">Nghe nhiều</a> </li>
+              <li> <a href="#">Có thế bạn thích</a> </li>
+            </ul>
+          </li>
           <li id="ic"> <a href="#">BXH</a> </li>
           <li id="ic"> <a href="#">Album</a> </li>
           <li id="ic"> <a href="#">Music Video</a> </li>
