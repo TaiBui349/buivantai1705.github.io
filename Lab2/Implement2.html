@@ -2,34 +2,141 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Tìm Kiếm</title>
+    <title>Nghệ Sĩ</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="Lab2\labstyle.css">
+    <link rel="stylesheet" href="Labstyle.css">
   </head>
   <body>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
           <ul class="nav nav-tabs nav-fill">
               <li class="nav-item">
-                  <a class="nav-link" href="Lab2\Lab2.html">Requirement</a>
+                  <a class="nav-link" href="Lab2.html">Requirement</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Lab2\UserScenario.html">User Scenario</a>
+                <a class="nav-link" href="UserScenario.html">User Scenario</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="Lab2\Designlab2.html">Design</a>
+                  <a class="nav-link" href="Designlab2.html">Design</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="Lab2\Implement2.html">Implement</a>
+                  <a class="nav-link" href="Implement2.html">Implement</a>
               </li>
           </ul>
       </nav>
-      
-    <div class="form-group">
+
+
+      <div class="home">
+        <ul class="header">
+          <div class="love-music">  <div> <a href="Implement2.html">Love Music</a>  </div> </div>
+    <!-- tìm kiếm -->
+          <li id="button">
+            <div>
+              <form class="form-search" style="margin:auto">
+                <input type="text" class="input-medium" value="Từ khóa tìm kiếm ..." style="width: 500px">
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </form>
+            </div>
+          </li>
+          </div>
+        </ul>
+      </div>
+
       <div class="">
-        <label for="Email">Email</label>
-        <input class="form-content" type="email" name="Email" value="****.@gmail.com" placeholder="Enter email">
+        <div class="row">
+          <div class="col-sm-1"></div>
+          <div id="img" class="col-sm-10"> <img src="n.jpg" class="rounded" alt="hương trà" title="Hương Tràm">
+          </div>
+          <div class="col-sm-1"></div>
+        </div>
+
+        <div class="row" id="main">
+          <div class="col-sm-10">
+            <div class="group-tabs">
+        <!-- Nav tabs -->
+            <ul class="nav nav-tabs nav-fill" role="tablist">
+              <li style="padding-left: 90px;" class="nav-item" role="presentation" class="active"><a class="nav-link" href="#TQ" aria-controls="TQ" role="tab" data-toggle="tab">TỔNG QUAN</a></li>
+              <li style="padding-left: 20px;" class="nav-item" role="presentation"><a class="nav-link" href="#BH" aria-controls="BH" role="tab" data-toggle="tab">BÀI HÁT</a></li>
+              <li style="padding-left: 20px;" class="nav-item" role="presentation"><a class="nav-link" href="#AB" aria-controls="AB" role="tab" data-toggle="tab">ALBUM</a></li>
+              <li style="padding-left: 20px;" class="nav-item" role="presentation"><a class="nav-link" href="#PL" aria-controls="PL" role="tab" data-toggle="tab">PLAYLIST</a></li>
+              <li style="padding-left: 20px;" class="nav-item" role="presentation"><a class="nav-link" href="#MV" aria-controls="MV" role="tab" data-toggle="tab">MV</a></li>
+              <li style="padding-left: 20px;" class="nav-item" role="presentation"><a class="nav-link" href="#TS" aria-controls="TS" role="tab" data-toggle="tab">TIỂU SỬ</a></li>
+              <hr>
+            </ul>
+
+        <!-- Tab panes -->
+          <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="TQ">
+          </div>
+
+          <div role="tabpanel" class="tab-pane" id="BH">
+
+          </div>
+
+          <div role="tabpanel" class="tab-pane" id="AB">
+          </div>
+
+          <div role="tabpanel" class="tab-pane active" id="PL">
+          </div>
+
+          <div role="tabpanel" class="tab-pane" id="MV">
+            <ul>
+              <li>
+                <div class="mv">
+                  <img src="1.jpg" alt="Hãy để em quên(Ngốc 2) - Hương Tràm">.
+                </div>
+                <div class="mv">
+                  <h3>
+                    <a href="#">Hãy để em quên(Ngốc 2)</a>
+                  </h3>
+                  <p class="singer"><a title="Hương Tràm" href="#TQ">Hương Tràm</a>
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div role="tabpanel" class="tab-pane" id="TS">
+            <div class="pt20 t-jus" style="color: white">
+              <h1>Tiểu Sử Hương Tràm</h1>
+              <p><strong>Tên thật:</strong> Phạm Thị Hương Tràm</p>
+              <p><strong>Nghệ danh:</strong> Hương Tràm</p>
+              <p><strong>Nickname:</strong> Hương Tràm</p>
+              <p><strong>Ngày sinh:</strong> 15/05/1995</p>
+              <p><strong>Quê quán:</strong> Nghệ An</p>
+              <p><strong>Quốc gia:</strong> Đang cập nhật</p>
+              <p><strong>Giải thưởng:</strong></p>Ngày 13/01/2013,
+              Hương Tràm chính thức trở thành quán quân đầu tiên của Giọng Hát Việt.
+               Với ngôi vị quán quân, cô gái Nghệ An sẽ nhận được giải thưởng 500 triệu đồng tiền mặt,
+                200 triệu tiền sản phẩm của nhà tài trợ và một chuyến du lịch Hàn Quốc 7 ngày. Ngoài ra,
+                 cô còn được sở hữu một hợp đồng ghi âm khủng với hãng đĩa quốc tế.
+              <p><strong>Thông tin thêm:</strong></p>Hường Tràm sinh tại Nghệ An trong một gia đình có truyền thống nghệ thuật.
+               Hương Tràm chính là quán quân mùa đầu tiên của Giọng Hát Việt 2012. Một cô gái nhỏ nhắn nhưng với giọng hát vô cùng nội lực.
+                Thế mạnh của Hương Tràm là những ca khúc ballad, tuy nhiên thời gian gần đây Hương Tràm thay đổi với phong cách sexy nóng bỏng cùng những ca khúc nhạc dance sôi động.
+             </div>
+           </div>
+          </div>
       </div>
     </div>
+  </div>
+      </div>
+
+
+
+
+      <div class="sign-up">
+        <div class="page"> Find me on social media. </div>
+        <a href="https://www.facebook.com/" target="_blank"> <i class="fab fa-facebook-square fa-3x"></i> </a>
+        <a href="https://twitter.com/?lang=vi" target="_blank"> <i class="fab fa-twitter-square fa-3x"></i> </a>
+        <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"> <i class="fab fa-google-plus-square fa-3x"></i> </a>
+      </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script src="../js/jquery-3.1.1.min.js" type=text/javascript></script>
+<script src="../js/bootstrap.min.js" type=text/javascript></script>
+<script src="../js/custom.js" type=text/javascript></script>
   </body>
 </html>
