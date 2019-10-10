@@ -4,7 +4,7 @@
   border: 0;
 }
 .home{
-  background-color: silver;
+  background-color: #21324A;
   padding-top: 20px;
   width: 100%;
 }
@@ -20,7 +20,7 @@
 a.header-a{
   display: flex;
   padding-left: 50px;
-  padding-top: 10px;
+  padding-top: 5px;
 
 }
 
@@ -28,11 +28,14 @@ a.header-a:hover{
   color: #FFFF;
 }
 .love-music{
-  background-color: #AE1F70;
-  width: 220px;
+  color:
+  width: 300px;
   height: 50px;
   font-size: 40px;
-  margin-left: 2px;
+  padding-left: 30px;
+}
+.love-music a{
+  text-decoration: none;
 }
 #button{
   margin-left: 100px;
@@ -54,9 +57,28 @@ a.header-a:hover{
   font-size: 20px;
   background-color: #192536;
 }
-.singer{
-  font-size: 12px;
-}
 .mv{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  text-decoration: line-through;
+}
+.mv image{
+  width: 284px;
+  height: 284px;
+}
+.in{
+  padding-left: 20px;
+}
+.in a{
+  font-size: 18px;
+  color: white;
   text-decoration: none;
+}
+.in a:hover{
+  color: #21B685;
+}
+.in p a{
+  font-size: 12px;
+  color: silver;
 }
