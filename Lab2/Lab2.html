@@ -15,21 +15,31 @@
         height: 500px;
       }
       #re {
-        width: 100%;
+        width: 900px;
         height: 100%;
-        text-align: left;
+        margin-left: 10px;
         /* margin: 20px; */
       }
-      table, tr, td{
+      /* table, tr, td{
         border: 2px solid black;
-      }
+      } */
       #stt{
         text-align: center
+      }
+      #me{
+        width: 450px;
+        margin-top: 1px;
+      }
+      #me a{
+        color: yellow;
+      }
+      #me a:hover{
+        color: red;
       }
     </style>
   </head>
   <body>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <!-- <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
           <ul class="nav nav-tabs nav-fill">
               <li class="nav-item">
                 <a class="nav-link" href="Lab2.html">Requirement</a>
@@ -44,14 +54,53 @@
                   <a class="nav-link" href="Implement2.html">Implement</a>
               </li>
           </ul>
-      </nav>
+      </nav> -->
 
-      <div id="re">
+
+      <h2 style="text-align: center">Lab 2</h2>
+      <!-- <div class="container"> -->
+      <div style="margin: 0">
+        <nav class="navbar navbar-expand-sm bg-secondary navbar-dark " id="me">
+          <ul class="nav nav" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link" href="Lab1.html">Lab 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Lab2\Lab2.html">Lab 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lab 3</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lab 4</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lab 5</a>
+            </li>
+          </ul>
+        </nav>
+
+      <!-- </div> -->
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center" style="margin-top: 2px; width: 500px; margin-left: 10px;">
+            <ul class="nav nav-tabs nav-fil" >
+                <li class="nav-item">
+                    <a class="nav-link" href="Lab1.html">Requirement</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Designlab1.html">Design</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Implement.html">Implement</a>
+                </li>
+            </ul>
+        </nav>
+
+      <div id="re" >
         <h1>Requirment</h1>
-        <table>
-          <thead id="stt">
+        <table  class="table table-bordered">
+          <thead>
             <tr style="font-size: 20px;">
-              <td style="width: 150px;">Stt</td>
+              <td id="stt" style="width: 100px;">Stt</td>
               <td>Yêu cầu</td>
             </tr>
           </thead>
@@ -76,6 +125,8 @@
           </tbody>
         </table>
       </div>
+
+    </div>
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
