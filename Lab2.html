@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <title>Requirement</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <style>
       .lab{
         margin-left: 200px;
@@ -17,7 +20,7 @@
       #re {
         width: 900px;
         height: 100%;
-        margin-left: 10px;
+        margin-left: 100px;
         /* margin: 20px; */
       }
       /* table, tr, td{
@@ -27,7 +30,6 @@
         text-align: center
       }
       #me{
-        width: 450px;
         margin-top: 1px;
       }
       #me a{
@@ -36,38 +38,42 @@
       #me a:hover{
         color: red;
       }
+      table td{
+        border: 1px solid white;
+      }
     </style>
   </head>
   <body>
       <h2 style="text-align: center">Lab 2</h2>
       <!-- <div class="container"> -->
-      <div style="margin: 0">
-        <nav class="navbar navbar-expand-sm bg-secondary navbar-dark " id="me">
-          <ul class="nav nav" role="tablist">
-            <li class="nav-item">
-              <a class="nav-link" href="Lab1.html">Lab 1</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Lab2\Lab2.html">Lab 2</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Lab 3</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Lab 4</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Lab 5</a>
-            </li>
-          </ul>
-        </nav>
+      <div class="container">
+          <nav class="navbar navbar-expand-sm bg-secondary navbar-dark " id="me">
+            <ul class="nav nav" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link" href="Lab1.html">Lab 1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Lab2.html">Lab 2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Lab 3</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Lab 4</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Lab 5</a>
+              </li>
+            </ul>
+          </nav>
 
-      <!-- </div> -->
-
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center " style="margin-top: 2px; width: 500px; margin-left: 10px;">
+      </div>
+      <div class="container">
+        <h2 style="text-align: center; margin-top: 20px;">Lab 2</h2>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="padding-bottom : 10px; width: 450px;">
               <ul class="nav nav-tabs nav-fill">
                   <li class="nav-item">
-                    <a class="nav-link" href="Lab2.html">Requirement</a>
+                      <a class="nav-link" href="Lab2.html">Requirement</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="UserScenario.html">User Scenario</a>
@@ -80,10 +86,13 @@
                   </li>
               </ul>
           </nav>
+      </div>
+
+          <br>
 
       <div id="re" >
         <h1>Requirment</h1>
-        <table  class="table table-bordered">
+        <table  class="table table-dark table-hover">
           <thead>
             <tr style="font-size: 20px;">
               <td id="stt" style="width: 100px;">Stt</td>

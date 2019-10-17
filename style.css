@@ -4,7 +4,7 @@
   border: 0;
 } */
 .home{
-  background-color: silver;
+  background-color:#192536;
   margin-top: 10px;
   padding-top: 20px;
   width: 100%;
@@ -74,14 +74,10 @@ a.header-a:hover{
   padding-top: 7px;
   color: #FFFF;
 }
-.album:hover{
-  color: blue;
-}
 .singer{
   width: 250px;
   height: 180px;
   padding: 5px;
-  border: 2px dotted black;
 }
 .sign-up{
   background-color: #21324A;
@@ -93,4 +89,5 @@ a.header-a:hover{
 .page{
   font-size: 50px;
   font-family: serif;
+  color: white;
 }
