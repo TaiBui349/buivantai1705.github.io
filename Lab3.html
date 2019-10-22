@@ -4,103 +4,117 @@
     <meta charset="utf-8">
     <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
-    <style media="screen">
-      .lab{
-        margin-left: 200px;
-      }
-      #re {
-        /* background-color: #89B7F0; */
-        width: 100%;
-        height: 100%;
-        text-align: left;
-        margin-left: 10px;
-        margin-top: 20px;
-      }
-      table, tr, td{
-        border: 1px solid black;
-      }
-      #stt{
-        text-align: center;
-      }
-    </style>
+    <link rel="stylesheet" href="Implement.css">
   </head>
-  <body class="lab">
-    <div class="group-tabs">
-
+  <body>
+    <div class="fluid-container">
+      <nav class="navbar navbar-expand-sm bg-secondary navbar-dark " id="me" >
+        <ul class="nav nav" role="tablist" >
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Lab1.html">Lab 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Lab2.html">Lab 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Lab3.html">Lab 3</a>
+          </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Lab 4</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Lab 5</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="name" >
+        <a href="About.html" target="_blank"> Bui Van Tai - 17130198 </a>
+      </div>
     </div>
+
     <div class="container">
-      <h2 style="text-align: center; margin-top: 20px;">Lab 2</h2>
-      <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="padding-bottom : 10px; width: 450px; ">
-            <ul class="nav nav-tabs nav-fill" role="tablist">
-                <li class="nav-item" role="presentation" class="active">
-                    <a class="nav-link" href="#Requirment" aria-controls="Requirment" role="tab" data-toggle="tab" >Requirement</a>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <a class="nav-link" href="#Design" aria-controls="Design" role="tab" data-toggle="tab">Design</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Implement" aria-controls="Implement" role="tab" data-toggle="tab">Implement</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
 
-    <div class="tab-content">
-      <div role="tabpanel" class="tab-pane" id="Requirment" >
-        <h1>Requirment</h1>
-        <div class="container" id="re">
+        <h2 style="text-align: center; margin-top: 20px;">Lab 3</h2>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center"  style="padding-bottom : 10px; width: 280px; ">
+              <ul class="nav nav-tabs nav-fill" role="tablist">
+                  <li class="nav-item" role="presentation" class="active">
+                      <a class="nav-link" href="#Requirment" aria-controls="Requirment" role="tab" data-toggle="tab" >Requirement</a>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <!-- <a class="nav-link" href="Ex1.html" aria-controls="Design" role="tab" data-toggle="tab">Ex1</a> -->
+                    <a class="nav-link" href="Ex1.html">Ex1</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Ex2.html">Ex2</a>
+                  </li>
+              </ul>
+          </nav>
+
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="Requirment" >
+          <h1>Requirment</h1>
+          <div class="container" id="re">
+            <table>
+              <thead>
+                <tr>
+                  <td id="stt" style="width: 100px;">Stt</td>
+                  <td>Yêu cầu</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td id="stt">1</td>
+                  <td>Trong menu <b>Labs</b>, tạo một menu Lab3 (file lab3.html) sau đó tạo hai tab <b>Ex1, Ex2</b></td>
+                </tr>
+                <tr>
+                  <td id="stt">2</td>
+                  <td><b>Ex1:</b>Thiết kế một trang web đơn giản sử dụng mẫu F-pattern ==> chuyển sang html(ex1.html)</td>
+                </tr>
+                <tr>
+                  <td id="stt">3</td>
+                  <td><b>Ex2: </b>Thiết kế một trang web sử dụng mẫu Z-pattern ==> chuyển sang html(ex2.htmk)</td>
+                </tr>
+                <tr>
+                  <td id="stt">4</td>
+                  <td>Với cả <b>Ex1, Ex2: </b> Tạo hai tab Design và Implementation
+                    <ul>
+                      <li><b>Design: </b>chụp lại hình ảnh để có cái nhìn tổng quan về file thiết kế, có nút Download để download file thiết kế về nếu muốn. </li>
+                      <li><b>Implementation: </b>nột dung phần hiện thực trên html</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td id="stt">5</td>
+                  <td>Upload lên Azure / GitHub</td>
+                </tr>
+              </tbody>
+
+            </table>
+          </div>
+        </div>
+
+
+        <div role="tabpanel" class="tab-pane" id="Design">
           <table>
-            <thead>
-              <tr>
-                <td id="stt" style="width: 100px;">Stt</td>
-                <td>Yêu cầu</td>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td id="stt">1</td>
-                <td>Trong menu <b>Labs</b>, tạo một menu Lab3 (file lab3.html) sau đó tạo hai tab <b>Ex1, Ex2</b></td>
-              </tr>
-              <tr>
-                <td id="stt">2</td>
-                <td><b>Ex1:</b>Thiết kế một trang web đơn giản sử dụng mẫu F-pattern ==> chuyển sang html(ex1.html)</td>
-              </tr>
-              <tr>
-                <td id="stt">3</td>
-                <td><b>Ex2: </b>Thiết kế một trang web sử dụng mẫu Z-pattern ==> chuyển sang html(ex2.htmk)</td>
-              </tr>
-              <tr>
-                <td id="stt">4</td>
-                <td>Với cả <b>Ex1, Ex2: </b> Tạo hai tab Design và Implementation
-                  <ul>
-                    <li><b>Design: </b>chụp lại hình ảnh để có cái nhìn tổng quan về file thiết kế, có nút Download để download file thiết kế về nếu muốn. </li>
-                    <li><b>Implementation: </b>nột dung phần hiện thực trên html</li>
-                  </ul>
-                </td>
-              </tr>
-              <tr>
-                <td id="stt">5</td>
-                <td>Upload lên Azure / GitHub</td>
-              </tr>
-            </tbody>
-
+            <tr>
+              <h1>shfkhskjfhsk</h1>
+            </tr>
           </table>
         </div>
+
       </div>
+
     </div>
 
-    <div class="tab-content">
-      <div role="tabpanel" class="tab-pane" id="Design">
-        <table>
-          <tr>
-            <td>voiwdnlkflshflkshflsksncan;dja;</td>
-          </tr>
-        </table>
-      </div>
-    </div>
   </body>
 </html>

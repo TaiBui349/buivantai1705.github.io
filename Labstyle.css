@@ -8,6 +8,9 @@
   padding-top: 20px;
   width: 100%;
 }
+.home ul a{
+  text-decoration: none;
+}
 .header{
   font-size: 30px;
   font-family: monospace;
@@ -19,7 +22,6 @@
 }
 a.header-a{
   display: flex;
-  padding-left: 50px;
 
 }
 
@@ -27,14 +29,15 @@ a.header-a:hover{
   color: #FFFF;
 }
 .love-music{
-  color:
-  width: 300px;
+  color:white;
+  width: max-content;
   height: 50px;
   font-size: 40px;
   padding-left: 30px;
   text-align: center;
 }
 .love-music a{
+  color: white;
   text-decoration: none;
 }
 #button{
