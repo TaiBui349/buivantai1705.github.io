@@ -13,11 +13,12 @@
   margin-top: 20px;
 }
 table, thead, tbody, tr, td{
-  border: 1px solid black;
+  border: 1px solid white;
 }
 #stt{
   text-align: center;
 }
+
 #me{
   margin-top: 1px;
   justify-content: flex-end;
