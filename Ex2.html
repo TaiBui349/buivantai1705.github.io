@@ -3,11 +3,18 @@
   <head>
     <meta charset="utf-8">
     <title>Exercise 2</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
     <link rel="stylesheet" href="Implement.css">
+    <link rel="stylesheet" href="Labstyle.css">
+
+
   </head>
   <body>
     <div class="fluid-container">
@@ -47,11 +54,10 @@
           <h2 style="text-align: center; margin-top: 20px;">Lab 3</h2>
           <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center"  style="padding-bottom : 10px; width: 280px; ">
                 <ul class="nav nav-tabs nav-fill" role="tablist">
-                    <li class="nav-item" role="presentation" class="active">
-                        <a class="nav-link" href="#Requirment" aria-controls="Requirment" role="tab" data-toggle="tab" >Requirement</a>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" href="Lab3.html">Requirement</a>
                     </li>
                     <li class="nav-item" role="presentation">
-                      <!-- <a class="nav-link" href="Ex1.html" aria-controls="Design" role="tab" data-toggle="tab">Ex1</a> -->
                       <a class="nav-link" href="Ex1.html">Ex1</a>
                     </li>
                     <li class="nav-item">
@@ -59,18 +65,24 @@
                     </li>
                 </ul>
             </nav>
-
       </div>
 
       <div class="container">
-        <ul class="nav nav-pills" role="tablist">
-          <li class="nav-item" role="presentation" class="active"> <a href="#Design"><button type="button" class="btn btn-primary">Design</button></a> </li>
-          <li class="nav-item" role="presentation"> <a href="#Implement"><button type="button" class="btn btn-primary">Implement</button></a> </li>
-        </ul>
+        <div class="group-tabs">
+          <ul class="nav nav-pills" role="tablist">
+            <li class="nav-item" role="presentation" class="active"> <a href="#Design" aria-controls="Desingn" role="tab" data-toggle="tab"><button type="button" class="btn btn-primary">Design</button></a> </li>
+            <li class="nav-item" role="presentation"> <a href="#Implement" aria-controls="Implement" role="tab" data-toggle="tab"><button type="button" class="btn btn-primary">Implement</button></a> </li>
+          </ul>
+        </div>
 
 
-        <div class="tab-content">
-          <div role="tabpanel" class="tab-pane active" id="Design" >
+        <br>
+        <br>
+        </div>
+<!-- Desingn -->
+      <div class="container">
+        <div class="tab-content" >
+          <div role="tabpanel" class="tab-pane active" id="Desingn" >
             <div class="lab">
               <div class="container">
                 <div class="row">
@@ -80,7 +92,7 @@
                   </div>
                   <div class="col-md-2">
                     <button style=" margin-top: 500px;" class="button button2" type="button" name="button">
-                        <a href="https://github.com/TaiBui349/buivantai1705.github.io/blob/master/17130198_Design/ve.png" target="_blank"> Download <i class="fa fa-download"></i> </a>
+                        <a href="https://github.com/TaiBui349/buivantai1705.github.io/blob/master/17130198_Design/imagelab3/12.jpg" target="_blank"> Download <i class="fa fa-download"></i> </a>
                     </button>
                   </div>
                 </div>
@@ -104,17 +116,65 @@
           </div>
 
 
+<!-- Implement -->
           <div role="tabpanel" class="tab-pane" id="Implement">
+            <div class="fluid-container" style="background: silver;">
+
+              <div class="fluid-container">
+                <nav class="navbar navbar-expand-sm bg-secondary navbar-dark " id="me" >
+                  <ul class="nav nav" role="tablist" >
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Link">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Link">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <button class="btn btn-success" type="submit" name="button">SIGN UP</button>
+                    </li>
+                  </ul>
+                </nav>
+                <div class="layout">
+                  <a href="#"> <h2>The Z Layout</h2> </a>
+                </div>
+              </div>
+              <div class="container" style="width: 100%;bhn">
+                <div class="zimage">
+                    <img style="width: 100%; height: 400px; padding: 10px; justify-content: center;" src="17130198_Design\imagelab3\11.jpg" alt="">
+                </div>
+              </div>
+              <br>
+                <div class="row" style="padding: 10px">
+                  <div class="col-sm-4">
+                    <p> <i class="fas fa-plus" style="color: blue; font-size: 24px;"></i>  <b>  SOME INFORMATION</b> </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facillsis bibendum pre-tium. Nam dapilbus risus non erat rhoncus lacinia. Mauris feuglat bibendum erat, ea venenatis ante dictum quis.</p>
+                  </div>
+                  <div class="col-sm-4">
+                    <p> <i class='fas fa-certificate' style='color:orange; font-size: 24px;'></i> <b>  SOME INFORMATION</b> </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facillsis bibendum pre-tium. Nam dapilbus risus non erat rhoncus lacinia. Mauris feuglat bibendum erat, ea venenatis ante dictum quis.</p>
+                  </div>
+                  <div class="col-sm-4" style="text-align: center;">
+                    <button style="width: -webkit-fill-available;; height: 125px;" class="btn btn-success" type="submit" name="button">SIGN UP NOW!</button>
+                  </div>
+                </div>
+
+                <div class="container" id="sign-up">
+                  <div id="page"> Find me on social media. </div>
+                  <a href="https://www.facebook.com/" target="_blank"> <i class="fab fa-facebook-square fa-3x"></i> </a>
+                  <a href="https://twitter.com/?lang=vi" target="_blank"> <i class="fab fa-twitter-square fa-3x"></i> </a>
+                  <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"> <i class="fab fa-google-plus-square fa-3x"></i> </a>
+                </div>
+            </div>
 
           </div>
-
         </div>
 
       </div>
-
-
-
-
-
   </body>
 </html>

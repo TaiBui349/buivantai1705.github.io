@@ -49,12 +49,6 @@ table, thead, tbody, tr, td{
   width: 100%;
   padding: 20px;
 }
-#me a{
-  color: yellow;
-}
-#me a:hover{
-  color: red;
-}
 #tk{
   padding-left: 20px;
 }
@@ -76,8 +70,8 @@ table, thead, tbody, tr, td{
   text-decoration: none;
   color: white;
   font-family: Averta-Bold;
-  margin: 41px 0 21px 0;
-  box-sizing: border-box;
+  /* margin: 41px 0 21px 0; */
+  padding-left: 20px;
 }
 #name:hover{
   color: #21B685;
@@ -99,6 +93,25 @@ table, thead, tbody, tr, td{
 #sign-up{
   background-color: #21324A;
   text-align: center;
-  height: 150px;
+  height: 100px;
+  width: 100%;
+}
+#page{
+  color: white;
+  font-size: 40px;
+}
+.zimage{
+  padding: 10px;
+  background-color: black;
+}
+.layout{
+  position: absolute;
+  color: white;
+  top: 10px;
+}
+.layout a h2{
+  color: white;
+  text-decoration: none;
   font-size: 20px;
+  padding: 30px;
 }
