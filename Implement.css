@@ -116,3 +116,11 @@ table, thead, tbody, tr, td{
   font-size: 20px;
   padding: 30px;
 }
+p a{
+  color: white;
+  font-size: 17px;
+}
+p a:hover{
+  color: #21B685;
+  text-decoration: none;
+}
