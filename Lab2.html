@@ -25,13 +25,26 @@
         text-align: center
       }
       #me{
+        width: 100%;
         margin-top: 1px;
+        justify-content: flex-end;
       }
       #me a{
         color: yellow;
       }
       #me a:hover{
         color: blue;
+      }
+      .name{
+        position: absolute;
+        color: white;
+        top: 10px;
+      }
+      .name a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 30px;
       }
       table td{
         border: 1px solid white;
@@ -67,60 +80,64 @@
             </ul>
           </nav>
 
+          <div class="name" >
+            <a href="About.html" target="_blank"> Bui Van Tai - 17130198 </a>
+          </div>
+        </div>
 
         <h2 style="text-align: center; margin-top: 20px;">Lab 2</h2>
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="padding-bottom : 10px; width: 450px;">
-              <ul class="nav nav-tabs nav-fill">
-                  <li class="nav-item">
-                      <a class="nav-link" href="Lab2.html">Requirement</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="UserScenario.html">User Scenario</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="Designlab2.html">Design</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="Implement2.html">Implement</a>
-                  </li>
-              </ul>
-          </nav>
+
+        <div class="container">
+          <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="padding-bottom : 10px; width: 450px;">
+                <ul class="nav nav-tabs nav-fill">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Lab2.html">Requirement</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="UserScenario.html">User Scenario</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Designlab2.html">Design</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Implement2.html">Implement</a>
+                    </li>
+                </ul>
+            </nav>
 
 
-          <br>
+            <br>
 
-      <div id="re" >
-        <table  class="table table-dark table-hover">
-          <thead>
-            <tr style="font-size: 20px;">
-              <td id="stt" style="width: 100px;">Stt</td>
-              <td>Yêu cầu</td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td id="stt">1</td>
-              <td>(1) Tạo ra một user scenario</td>
-            </tr>
-            <tr>
-              <td id="stt">2</td>
-              <td>(2) Chọn 1 bước trong user scenario để thiết kế 1 form giao diện
-                Web trên công cụ thiết kế đã chọn. Sau đó tạo ra file html tương
-                ứng cho thiết kế này.
-              </td>
-            </tr>
-            <tr>
-              <td id="stt">3</td>
-              <td> Upload lên Azure / github: trong file html có chèn hình ảnh của
-                user scenario ở (1) và đường dẫn của file thiết kế ở (2).
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    </div>
+        <div id="re" >
+          <table  class="table table-dark table-hover">
+            <thead>
+              <tr style="font-size: 20px;">
+                <td id="stt" style="width: 100px;">Stt</td>
+                <td>Yêu cầu</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td id="stt">1</td>
+                <td>(1) Tạo ra một user scenario</td>
+              </tr>
+              <tr>
+                <td id="stt">2</td>
+                <td>(2) Chọn 1 bước trong user scenario để thiết kế 1 form giao diện
+                  Web trên công cụ thiết kế đã chọn. Sau đó tạo ra file html tương
+                  ứng cho thiết kế này.
+                </td>
+              </tr>
+              <tr>
+                <td id="stt">3</td>
+                <td> Upload lên Azure / github: trong file html có chèn hình ảnh của
+                  user scenario ở (1) và đường dẫn của file thiết kế ở (2).
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        </div>
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
