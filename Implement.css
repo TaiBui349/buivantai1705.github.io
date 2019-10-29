@@ -22,6 +22,7 @@ table, thead, tbody, tr, td{
 #me{
   margin-top: 1px;
   justify-content: flex-end;
+  font-size: 20px;
 }
 #me a{
   color: yellow;
@@ -150,6 +151,27 @@ p a:hover{
 
 .button2:active {
   /* background-color: #3e8e41; */
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.btn-success{
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  font-size: 18px;
+
+}
+.btn-primary{
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.btn-primary:active{
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
