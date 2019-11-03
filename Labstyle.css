@@ -106,9 +106,3 @@ a.header-a:hover{
 table, td{
   border: 2px solid white;
 }
-#me a{
-  color: yellow;
-}
-#me a:hover{
-  color: blue;
-}

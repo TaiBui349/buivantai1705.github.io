@@ -25,7 +25,7 @@ table, thead, tbody, tr, td{
   font-size: 20px;
 }
 #me a{
-  color: yellow;
+  color: white;
 }
 #me a:hover{
   color: blue;
@@ -33,7 +33,7 @@ table, thead, tbody, tr, td{
 .name{
   position: absolute;
   color: white;
-  top: 10px;
+  top: 15px;
 }
 .name a{
   color: white;
@@ -154,13 +154,13 @@ p a:hover{
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-.btn-success{
+/* .btn-success{
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
   font-size: 18px;
 
-}
+} */
 .btn-primary{
   font-size: 24px;
   text-align: center;
@@ -174,4 +174,135 @@ p a:hover{
 .btn-primary:active{
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+.lm{
+  display: flex;
+  position: absolute;
+  color: black;
+  justify-content: flex-start;
+  width: 100%;
+  text-align: center;
+  padding: 50px;
+}
+.login{
+  display: flex;
+  position: absolute;
+  color: black;
+  justify-content: flex-end;
+  width: 100%;
+  text-align: center;
+  padding: 50px;
+}
+.login a{
+  font-size: 17px;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+.login a:hover{
+  color: purple;
+}
+.login img{
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+#m{
+  padding-left: 10px;
+}
+.vip{
+  color: white;
+  margin: 10px;
+  background: #934CB2;
+  width: 100%;
+}
+.menu{
+  position: relative;
+  justify-content: space-between;
+
+}
+/* template */
+#header{
+  height:80px;
+  width: 100%;
+  justify-content: flex-end;
+  padding-right: 200px;
+  font-size: 20px;
+}
+#header a:hover{
+  color: blue;
+}
+.column {
+  float: left;
+  width: 32%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+  width: 100%;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+#m{
+  padding-left: 10px;
+}
+#footer{
+  background-color: #111860;
+  color: white;
+}
+#footer p{
+  color: silver;
+}
+.icon{
+  font-size: 60px;
+  color: white;
+
+}
+.iconheader{
+  padding-right: 50px;
+  display: flex;
+  position: absolute;
+  top: 17px;
+  justify-content: flex-end;
+  width: 100%;
+  font-size: 30px;
+
+}
+.namehome{
+  display: flex;
+  position: absolute;
+  top: 17px;
+  justify-content: flex-start;
+  width: 100%;
+  padding-left: 50px;
+}
+.namehome a{
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+.namehome a:hover{
+  text-decoration: none;
 }
