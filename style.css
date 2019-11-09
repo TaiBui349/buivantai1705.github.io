@@ -22,11 +22,13 @@ a.header-a{
   display: flex;
   padding-left: 50px;
   padding-top: 10px;
+  text-decoration: none;
 
 }
 
 a.header-a:hover{
   color: #FFFF;
+  text-decoration: none;
 }
 .love-music{
   background-color: #AE1F70;
