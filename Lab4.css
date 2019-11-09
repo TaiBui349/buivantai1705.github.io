@@ -1,4 +1,20 @@
 /* lab 4 */
+#start{
+  margin-top: 5px;
+}
+#start a{
+  color: #171717;
+  text-decoration: none;
+  font-size: 10px;
+}
+#start a:hover{
+  color: #BC1A24;
+}
+#start img{
+  width: 100%;
+  height: 70px;
+  padding: 2px;
+}
 .tg{
   display: flex;
   position: absolute;
@@ -143,10 +159,29 @@
 .dropup:hover .dropbtn {
   background-color: #2980B9;
 }
+.dropup ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
 
+.dropup li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+.dropup li a:hover {
+  background-color: red;
+  color: white;
+}
 /* default */
 .default{
-  background: green;
+  background: #FFFFFF;
 }
 ul.breadcrumb {
   /* padding: 10px 16px; */
@@ -170,6 +205,31 @@ ul.breadcrumb li a:hover {
   color: black;
   text-decoration: none;
 }
+#inform span p{
+  color: blue;
+  padding-left: 15px;
+}
+#inform a{
+  text-decoration: none;
+}
+#inform a p{
+  color: black;
+  padding-left: 15px;
+  font-size: 15px;
+}
+#inform a p:hover{
+  color: red;
+}
+#inform a {
+  box-sizing: border-box;
+  margin: auto;
+  overflow: hidden;
+}
+#inform a img:hover{
+  transform: scale(0.5);
+  transition: 2s;
+}
+.font-weight-bold   { font-weight: $font-weight-bold !important; }
 #xtc{
   display: flex;
   position: absolute;
@@ -193,4 +253,38 @@ ul.breadcrumb li a:hover {
 }
 .tnbtn p{
   color: #525252;
+}
+#end a{
+  box-sizing: content-box;
+  width: 100%;
+  height: 50px;
+  padding: 20px;
+  border: 2px solid black;
+  text-decoration: none;
+  font-size: 15px;
+  color: #0A0A0A;
+}
+#end a:hover{
+  color: red;
+}
+#end a i{
+  color: #171717;
+}
+.KTT{
+  color: #171717;
+}
+#footer-end{
+  background: #FFFFFF;
+}
+#footer-end a{
+  color: #1A1A1A;
+  text-decoration: none;
+  font-size: 15px;
+}
+#footer-end a:hover{
+  color: #760A1A;
+}
+#footer-end p{
+  color: #1A1A1A;
+  font-size: 12px;
 }

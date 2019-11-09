@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>Lab 4</title>
-
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="Implement.css">
     <link rel="stylesheet" href="Lab4.css">
@@ -132,10 +132,10 @@
 
             <!-- implement -->
             <div id="Implementlab4" class="fluid-container tab-pane fade">
-              <div class="fluid-container" style="background: #F0EDED;">
-                <nav class="navbar navbar-expand-sm bg-danger navbar-dark justify-content-flex-start" style="height: 100px;">
-                  <form class="form-inline" action="" method="post">
-                    <input class="form-control mr-sm-2" type="text" name="Search" value="" placeholder="Bạn tìm gì ..." style="width: 450px; margin-left: 200px;">
+              <div class="fluid-container" style="background: #DBD6D6; border: 2px solid silver">
+                <nav class="navbar navbar-expand-sm bg-primary navbar-dark justify-content-flex-start" style="height: 100px;">
+                  <form class="form-inline" action="" >
+                    <input class="form-control mr-sm-2" type="text" name="Search" value="" placeholder="Nhập tên sản phẩm, mã sản phẩm, từ khóa tìm kiếm ..." style="width: 450px; margin-left: 200px;">
                     <button class="btn btn-light" type="submit" name="button"><i class="fa fa-search"></i></button>
                   </form>
                   <div class="tg">
@@ -156,18 +156,28 @@
                       <div class="dropup">
                         <a href="#LT">Laptop & LT Gaming</a>
                         <div class="dropup-content">
-                            <a href="#">Máy Tính Laptop</a>
-                            <a href="#">MSI GAMING</a>
-                            <a href="#">Aus Republic of Gamers</a>
-                            <a href="#">Asus</a>
-                            <a href="#">Dell</a>
-                            <a href="#">Lenovo</a>
-                            <a href="#">HP</a>
-                            <a href="#">Acer</a>
-                            <a href="#">Apple</a>
+                          <ul>
+                            <li><a href="#">Máy Tính Laptop</a></li>
+                            <li><a href="#">MSI GAMING</a></li>
+                            <li><a href="#">Aus Republic of Gamers</a></li>
+                            <li><a href="#">Asus</a></li>
+                            <li><a href="#">Dell</a></li>
+                            <li><a href="#">Lenovo</a></li>
+                            <li><a href="#">HP</a></li>
+                            <li><a href="#">Acer</a></li>
+                            <li><a href="#">Apple</a></li>
+                          </ul>
                         </div>
                       </div>
-                      <a href="#MT">Máy tính - Máy chủ</a>
+                      <div class="dropup">
+                        <a href="#MT">Máy tính - Máy chủ</a>
+                        <div class="dropup-content">
+                          <ul>
+                            <li></li>
+                          </ul>
+                        </div>
+                      </div>
+
                       <a href="#about">Linh kiện máy tính</a>
                       <a href="#about">Màn hình Máy Tính</a>
                       <a href="#about">TB lưu trữ, nghe nhìn</a>
@@ -245,7 +255,26 @@
                     </div>
                     <div class="col-md-3">
                         <div class="card" style="height: 350px; margin-right: 5px;">
-                          <img src="17130198_Design\imagelab4\Y.jpg" alt="" style="width: 100%; height: 200px">
+                          <img src="17130198_Design\imagelab4\Y.jpg" alt="" style="width: 100%; height: 150px">
+                          <div class="fluid-container" id="start">
+                            <div class="row">
+                              <div class="col-sm-6">
+                                <img src="17130198_Design\imagelab4\tt1.jpg" alt="">
+                              </div>
+                              <div class="col-sm-6">
+                                <a href="#">HẬU KHAI TRƯƠNG GIẢM SƯƠNG SƯƠNG 10 TRIỆU</a>
+                              </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                              <div class="col-sm-6">
+                                <img src="17130198_Design\imagelab4\tt2.jpg" alt="">
+                              </div>
+                              <div class="col-sm-6">
+                                <a href="#">THỬ THÁCH HALLOWEEN: BE TAIBUI HALLOWEEN HERO</a>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                     </div>
                   </div>
@@ -261,21 +290,28 @@
                     <li style="margin-top: 8px;"><a href="#">LINH KIỆN MTXT</a></li>
                     <li style="margin-top: 8px;"><a href="#">MÁY TÍNH BẢNG</a></li>
                   </ul>
-                  <div class="fluid-container" style="padding: 5px;">
+                  <div class="fluid-container" id="inform" style="padding: 5px;">
                     <div class="row">
-                      <div class="col-md-3" style="width:100%">
-                        <a href="#" data-toggle="tooltip" title="HP"><img style="width: 100%" src="17130198_Design\imagelab4\a.png" alt=""></a>
+                      <div class="col-md-3">
+                        <a href="#" data-toggle="tooltip" title="Acer"><img style="width: 100%; height: 250px;" src="17130198_Design\imagelab4\a.jpg" alt=""></a>
+                        <a href="#"><p> Laptop Acer Aspire 5 A514-52-33AB (NX.HMHSV.001) (14" FHD/i3-10110U/4GB/256GB SSD/UHD 620/Win10/1.6 kg)</p></a>
+                        <span><p style="color: red" class="font-weight-bold">11.990.000 đ</p></span>
+                      </div>
+                      <div class="col-md-3">
+                        <a href="#" data-toggle="tooltip" title="HP"><img style="width: 100%; height: 250px;" src="17130198_Design\imagelab4\s.jpg" alt=""></a>
+                        <a href="#"><p>Laptop HP Pavilion 14-ce2041TU (14" FHD/i5-8250U/4GB/1TB HDD/UHD 620/Win10/1.6 kg)</p></a>
+                        <span><p style="color: red" class="font-weight-bold">14.790.000 đ</p></span>
 
                       </div>
                       <div class="col-md-3">
-                        <img style="width: 100%" src="17130198_Design\imagelab4\s.png" alt="">
-
+                        <a href="#" data-toggle="tooltip" title="Dell"><img style="width: 100%; height: 250px;" src="17130198_Design\imagelab4\d.jpg" alt=""></a>
+                        <a href="#"> <p>Laptop Dell Inspiron 5584-N5I5384W (15" FHD/i5-8265U/4GB/1TB HDD/GeForce MX130/Win10/1.95 kg)</p> </a>
+                        <span><p style="color: red" class="font-weight-bold">16.890.000 đ</p></span>
                       </div>
                       <div class="col-md-3">
-                        <img style="width: 100%" src="17130198_Design\imagelab4\f.jpg" alt="">
-                      </div>
-                      <div class="col-md-3">
-                        <img style="width: 100%" src="17130198_Design\imagelab4\g.jpg" alt="">
+                        <a href="#" data-toggle="tooltip" title="Asus"><img style="width: 100%; height: 250px;" src="17130198_Design\imagelab4\f.jpg" alt=""></a>
+                        <a href="#"><p> Laptop ASUS ROG Strix G G531GD-AL025T (15" FHD/i5-9300H/8GB/512GB SSD/GTX 1050/Win10/2.4 kg)</p></a>
+                        <span><p style="color: red" class="font-weight-bold">22.900.000 đ</p></span>
                       </div>
                     </div>
                   </div>
@@ -289,21 +325,27 @@
                     <li style="margin-top: 8px;"><a href="#">MÁY TÍNH ALL-IN-ONE</a></li>
                     <li style="margin-top: 8px;"><a href="#">MÁY TÍNH - LINH KIỆN</a></li>
                   </ul>
-                  <div class="fluid-container" style="padding: 5px;">
+                  <div class="fluid-container" id="inform" style="padding: 5px;">
                     <div class="row">
-                      <div class="col-md-3" style="width:100%">
-                        <a href="#" data-toggle="tooltip" title="HP"><img style="width: 100%" src="17130198_Design\imagelab4\a.png" alt=""></a>
-
+                      <div class="col-md-3">
+                        <a href="#" data-toggle="tooltip" title="Dell"><img style="width: 100%; height: 250px;" src="17130198_Design\imagelab4\z.gif" alt=""></a>
+                        <a href="#"> <p>Máy tính đa tác vụ PCAP STREAMER 2</p> </a>
+                        <span><p style="color: red" class="font-weight-bold">16.890.000 đ</p></span>
                       </div>
                       <div class="col-md-3">
-                        <img style="width: 100%" src="17130198_Design\imagelab4\s.png" alt="">
-
+                        <a href="#" data-toggle="tooltip" title="Dell"><img style="width: 100%; height: 250px;" src="17130198_Design\imagelab4\x.gif" alt=""></a>
+                        <a href="#"> <p>Máy tính đa tác vụ PCAP STREAMER 1</p> </a>
+                        <span><p style="color: red" class="font-weight-bold">16.890.000 đ</p></span>
                       </div>
                       <div class="col-md-3">
-                        <img style="width: 100%" src="17130198_Design\imagelab4\f.jpg" alt="">
+                        <a href="#" data-toggle="tooltip" title="Dell"><img style="width: 100%; height: 250px;" src="17130198_Design\imagelab4\c.gif" alt=""></a>
+                        <a href="#"> <p>Máy tính chơi game PCAP GAMING VALUE 3</p> </a>
+                        <span><p style="color: red" class="font-weight-bold">16.890.000 đ</p></span>
                       </div>
                       <div class="col-md-3">
-                        <img style="width: 100%" src="17130198_Design\imagelab4\g.jpg" alt="">
+                        <a href="#" data-toggle="tooltip" title="Dell"><img style="width: 100%; height: 250px;" src="17130198_Design\imagelab4\v.gif" alt=""></a>
+                        <a href="#"> <p>Máy tính đa tác vụ PCAP VLOG Blogger Video</p> </a>
+                        <span><p style="color: red" class="font-weight-bold">16.890.000 đ</p></span>
                       </div>
                     </div>
                   </div>
@@ -317,21 +359,27 @@
                     <li style="margin-top: 8px;"><a href="#">MAINBROAD</a></li>
                     <li style="margin-top: 8px;"><a href="#">RAM - BỘ NHỚ TRONG</a></li>
                   </ul>
-                  <div class="fluid-container" style="padding: 5px;">
+                  <div class="fluid-container" id="inform" style="padding: 5px;">
                     <div class="row">
-                      <div class="col-md-3" style="width:100%">
-                        <a href="#" data-toggle="tooltip" title="HP"><img style="width: 100%" src="17130198_Design\imagelab4\a.png" alt=""></a>
-
+                      <div class="col-md-3">
+                        <a href="#" data-toggle="tooltip" title="Dell"><img style="width: 100%; height: 250px;" src="17130198_Design\imagelab4\n.jpg" alt=""></a>
+                        <a href="#"> <p> Card màn hình GALAX GeForce RTX 2080Ti 11GB GDDR6 HOF (28IULBUCV6DH)</p> </a>
+                        <span><p style="color: red" class="font-weight-bold">46.890.000 đ</p></span>
                       </div>
                       <div class="col-md-3">
-                        <img style="width: 100%" src="17130198_Design\imagelab4\s.png" alt="">
-
+                        <a href="#" data-toggle="tooltip" title="Dell"><img style="width: 100%; height: 250px;" src="17130198_Design\imagelab4\p.jpg" alt=""></a>
+                        <a href="#"> <p> Mainboard MSI MEG Z390 GODLIKE</p> </a>
+                        <span><p style="color: red" class="font-weight-bold">15.200.000 đ</p></span>
                       </div>
                       <div class="col-md-3">
-                        <img style="width: 100%" src="17130198_Design\imagelab4\f.jpg" alt="">
+                        <a href="#" data-toggle="tooltip" title="Dell"><img style="width: 100%; height: 250px;" src="17130198_Design\imagelab4\b.jpg" alt=""></a>
+                        <a href="#"> <p> RAM desktop G.SKILL RipJaws V F4-2800C17S-8GVR (1x8GB) DDR4 2800MHz</p> </a>
+                        <span><p style="color: red" class="font-weight-bold">1.390.000 đ</p></span>
                       </div>
                       <div class="col-md-3">
-                        <img style="width: 100%" src="17130198_Design\imagelab4\g.jpg" alt="">
+                        <a href="#" data-toggle="tooltip" title="Dell"><img style="width: 100%; height: 250px;" src="17130198_Design\imagelab4\o.jpg" alt=""></a>
+                        <a href="#"> <p>Màn Hình chơi game Acer 27" Predator X27</p> </a>
+                        <span><p style="color: red" class="font-weight-bold">70.000.000 đ</p></span>
                       </div>
                     </div>
                   </div>
@@ -345,21 +393,27 @@
                     <li style="margin-top: 8px;"><a href="#">GHẾ CHƠI GAME</a></li>
                     <li style="margin-top: 8px;"><a href="#">TAY CẦM CHƠI GAME</a></li>
                   </ul>
-                  <div class="fluid-container" style="padding: 5px;">
+                  <div class="fluid-container" id="inform" style="padding: 5px;">
                     <div class="row">
                       <div class="col-md-3" style="width:100%">
-                        <a href="#" data-toggle="tooltip" title="HP"><img style="width: 100%" src="17130198_Design\imagelab4\a.png" alt=""></a>
-
+                        <a href="#" data-toggle="tooltip" title="Dell"><img style="width: 100%; height: 250px;" src="17130198_Design\imagelab4\e.jpg" alt=""></a>
+                        <a href="#"> <p>Bàn phím cơ Steelseries Apex Pro (Full size/OmniPoint Switch)</p> </a>
+                        <span><p style="color: red" class="font-weight-bold">4.990.000 đ</p></span>
                       </div>
                       <div class="col-md-3">
-                        <img style="width: 100%" src="17130198_Design\imagelab4\s.png" alt="">
-
+                        <a href="#" data-toggle="tooltip" title="Dell"><img style="width: 100%; height: 250px;" src="17130198_Design\imagelab4\m.jpg" alt=""></a>
+                        <a href="#"> <p>Chuột gaming Logitech G502 HERO (Đen)</p> </a>
+                        <span><p style="color: red" class="font-weight-bold">1.559.000 đ</p></span>
                       </div>
                       <div class="col-md-3">
-                        <img style="width: 100%" src="17130198_Design\imagelab4\f.jpg" alt="">
+                        <a href="#" data-toggle="tooltip" title="Dell"><img style="width: 100%; height: 250px;" src="17130198_Design\imagelab4\i.jpg" alt=""></a>
+                        <a href="#"> <p>Tay cầm Game pad Razer Raiju PS4 Tournament Edition (RZ06-02610100-R3A1)</p> </a>
+                        <span><p style="color: red" class="font-weight-bold">3.900.000 đ</p></span>
                       </div>
                       <div class="col-md-3">
-                        <img style="width: 100%" src="17130198_Design\imagelab4\g.jpg" alt="">
+                        <a href="#" data-toggle="tooltip" title="Dell"><img style="width: 100%; height: 250px;" src="17130198_Design\imagelab4\l.jpg" alt=""></a>
+                        <a href="#"> <p>Ghế chơi game Alpha Gamer AGGAMMA-BK-R (Đen;Đỏ)</p> </a>
+                        <span><p style="color: red" class="font-weight-bold">5.729.200 đ</p></span>
                       </div>
                     </div>
                   </div>
@@ -374,26 +428,45 @@
                     <li style="margin-top: 8px;"><a href="#">THIẾT BỊ TRÌNH CHIẾU</a></li>
                     <li style="margin-top: 8px;"><a href="#">PHẦN MỀM</a></li>
                   </ul>
-                  <div class="fluid-container" style="padding: 5px;">
+                  <div class="fluid-container" id="inform" style="padding: 5px;">
                     <div class="row">
                       <div class="col-md-3" style="width:100%">
-                        <a href="#" data-toggle="tooltip" title="HP"><img style="width: 100%" src="17130198_Design\imagelab4\a.png" alt=""></a>
-
+                        <a href="#" data-toggle="tooltip" title="Dell"><img style="width: 100%; height: 250px;" src="17130198_Design\imagelab4\1.jpg" alt=""></a>
+                        <a href="#"> <p>Máy in laser trắng đen BROTHER DCP-L2520D</p> </a>
+                        <span><p style="color: red" class="font-weight-bold">4.329.000 đ</p></span>
                       </div>
                       <div class="col-md-3">
-                        <img style="width: 100%" src="17130198_Design\imagelab4\s.png" alt="">
-
+                        <a href="#" data-toggle="tooltip" title="Dell"><img style="width: 100%; height: 250px;" src="17130198_Design\imagelab4\3.jpg" alt=""></a>
+                        <a href="#"> <p> Máy chiếu PANASONIC PT-LB303</p> </a>
+                        <span><p style="color: red" class="font-weight-bold">11.900.000 đ</p></span>
                       </div>
                       <div class="col-md-3">
-                        <img style="width: 100%" src="17130198_Design\imagelab4\f.jpg" alt="">
+                        <a href="#" data-toggle="tooltip" title="Dell"><img style="width: 100%; height: 250px;" src="17130198_Design\imagelab4\4.jpg" alt=""></a>
+                        <a href="#"> <p> Máy in laser trắng đen HP Pro MFP M436dn (2KY38A)</p> </a>
+                        <span><p style="color: red" class="font-weight-bold">19.990.000 đ</p></span>
                       </div>
                       <div class="col-md-3">
-                        <img style="width: 100%" src="17130198_Design\imagelab4\g.jpg" alt="">
+                        <a href="#" data-toggle="tooltip" title="Dell"><img style="width: 100%; height: 250px;" src="17130198_Design\imagelab4\2.jpg" alt=""></a>
+                        <a href="#"> <p>Máy scan HP 3500 (L2741A)</p> </a>
+                        <span><p style="color: red" class="font-weight-bold">18.000.000 đ</p></span>
                       </div>
                     </div>
                   </div>
                 </div>
-                <br><br>
+                <div class="container" id="end" style="margin: 20px;">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <a href="#"><i style='font-size:24px' class='fas'>&#xf0d1;</i> &ensp; GIAO HÀNG MIỄN PHÍ</a>
+                    </div>
+                    <div class="col-sm-4">
+                      <a href="#"><i style='font-size:24px' class='fas'>&#xf07a;</i> &ensp; THANH TOÁN LINH HOẠT</a>
+                    </div>
+                    <div class="col-sm-4">
+                      <a href="#"><i style='font-size:24px' class='fas'>&#xf004;</i> &ensp; BẢO HÀNH TẠI NƠI SỬ DỤNG</a>
+                    </div>
+                  </div>
+                </div>
+                <br>
                 <!-- end default -->
                 <div class="container tnbtn" style="background:#FFFFFF;">
                   <h4 style="margin-top: 20px;">TIN NỔI BẬT TRONG NGÀY</h4>
@@ -404,7 +477,7 @@
                       <div style="margin: 10px;">
                         <button  class="btn btn-danger" type="button" name="button">Tin tức</button>
                         <a href="#"> <h4>HẬU KHAI TRƯƠNG GIẢM SƯƠNG SƯƠNG 10 TRIỆU</h4> </a>
-                        <p>Sau thành công sự kiện khai trương hai showroom mới tại 151 Lê Thanh Nghị và 158 – 160 Lý Thường Kiệt, An Phát Computer xin chân thành cảm ơn quý khách hàng và các ...</p>
+                        <p>Sau thành công sự kiện khai trương hai showroom mới tại 206 Xuân Lộc - Đồng Nai, Tài Bùi Computer xin chân thành cảm ơn quý khách hàng và các ...</p>
                       </div>
                     </div>
                     <div class="col-sm-4">
@@ -425,21 +498,58 @@
                   </div>
                 </div>
 
-                <div class="fluid-container" style="background: #F0EDED;">
+                <div class="fluid-container KTT" style="background: #F0EDED;">
                   <div class="fluid-container" >
                     <div class="row">
                       <div class="col-sm-6" style="margin-top: 10px; padding-left: 30px;" >
                         <h4>KÊNH THÔNG TIN</h4>
-                        <p>Mời bạn nhập thông tin để nhận thông báo khuyến mãi từ Tai Bui Computer</p>
+                        <p>Mời bạn nhập thông tin để nhận thông báo khuyến mãi từ Tài Bùi Computer</p>
                       </div>
                       <div class="col-sm-6">
                         <form class="" action="" method="post" style="margin: 20px;">
                           <div class="form-inline">
-                            <input style="height:50px; width: 70%; background: #0D1248; color: white;" type="email" name="Email" value="" placeholder="Email Address" required>
-                            <input style="height: 50px; width: 80px; color: white; background: white" type="submit" name="" value="Send" style="">
+                            <input style="height:50px; width: 70%; background: #FFFFFF; color: #050505;" type="email" name="Email" value="" placeholder="Email Address" required>
+                            <input style="height: 50px; width: 80px; color: #050505; background: #FFFFFF" type="submit" name="" value="Send" style="">
+
                           </div>
                         </form>
                       </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="container" id="footer-end">
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <h5><span class="font-weight-bold">Thông tin chung</span></h5>
+                      <a href="#">Giới thiệu về Tài Bùi</a><br>
+                      <a href="#">Tin tức</a><br>
+                      <a href="#">Liên hệ - góp ý</a><br>
+                      <a href="#">Khách hàng doanh nghiệp</a><br>
+                      <a href="#">Xây dựng cấu hình PC V1</a>
+                    </div>
+                    <div class="col-sm-3">
+                      <h5><span class="font-weight-bold">Quy định & chính sách</span></h5>
+                      <a href="#">Hướng dẫn mua hàng online</a><br>
+                      <a href="#">Hướng dẫn mua trả góp</a><br>
+                      <a href="#">Bảo hành - đổi trả</a><br>
+                      <a href="#">Chính sách bảo mật</a><br>
+                      <a href="#">Hình thức thanh toán</a><br>
+                      <a href="#">Chính sách giao hàng</a><br>
+                      <a href="#">Chính sách game net</a>
+                    </div>
+                    <div class="col-sm-3">
+                      <h5><span class="font-weight-bold">Cộng đồng Tài Bùi</span></h5>
+                      <a href="#"><i class="fab fa-facebook-square fa-2x" style="color:#083BD6"></i> &ensp; Facebook</a><br>
+                      <a href="#"><i class="fab fa-youtube-square fa-2x" style="color: #E30817"></i> &ensp; Youtube</a><br>
+                      <a href="#"> <span class="glyphicon glyphicon-headphones"></span> &ensp; Tư vấn thiết bị Hi-end & Gaming</a><br>
+                    </div>
+                    <div class="col-sm-3">
+                      <h5><span class="font-weight-bold">Tổng đài hỗ trợ</span></h5>
+                      <p><span class="glyphicon glyphicon-earphone"></span> <b>KD bán lẻ:</b>1900.8191 phím 1 </p>
+                      <p><span class="glyphicon glyphicon-earphone"></span> <b>Kỹ thuật - Bảo hành:</b>1900.8191 phím 2 </p>
+                      <p><span class="glyphicon glyphicon-earphone"></span> <b>chăm soc khách hàng:</b>1900.8191 phím 3 </p>
+                      <p><span class="glyphicon glyphicon-earphone"></span> <b>Góp ý - kiếu nại:</b>1900.8191 phím 4 </p>
+                      <p><span class="glyphicon glyphicon-earphone"></span> <b>Email:</b>taibuicomputer@gmail.com </p>
                     </div>
                   </div>
                 </div>
@@ -482,5 +592,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
   </body>
 </html>
