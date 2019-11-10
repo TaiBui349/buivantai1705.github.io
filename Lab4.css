@@ -5,7 +5,7 @@
 #start a{
   color: #171717;
   text-decoration: none;
-  font-size: 10px;
+  font-size: 9px;
 }
 #start a:hover{
   color: #BC1A24;
@@ -15,7 +15,11 @@
   height: 70px;
   padding: 2px;
 }
-.tg{
+.video iframe{
+  width: 100%;
+  height: 150px;
+}
+/* .tg{
   display: flex;
   position: absolute;
   top: 17px;
@@ -26,6 +30,24 @@
 .tg a{
   text-decoration: none;
   color: white;
+} */
+.tg a{
+  color: #F8F8FB;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+}
+.tg a i{
+  margin-top: 8px;
+}
+.tg a img{
+  margin-top: 8px;
+}
+.avatar {
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
 }
 .sidebar {
   height: 100%;
