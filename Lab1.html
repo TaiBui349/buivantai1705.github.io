@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Requirment</title>
+    <title>Lab 1</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -53,59 +53,448 @@
         </div>
       </div>
 
-      <h2 style="text-align: center">Lab 1</h2>
+
 
       <div class="container">
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center" style="margin-top: 2px; width: 320px;">
-              <ul class="nav nav-tabs nav-fil" >
-                  <li class="nav-item">
-                      <a class="nav-link " href="Lab1.html">Requirement</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="Designlab1.html">Design</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="Implement.html">Implement</a>
-                  </li>
-              </ul>
-          </nav>
+          <h2 style="text-align: center; margin-top: 20px;">Lab 1</h2>
+          <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center"  style="padding-bottom : 10px; width: 350px; ">
+                <ul class="nav nav-tabs nav-fill" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" data-toggle="tab" href="#Requirementlab1">Requirement</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="tab" href="#Designlab1">Design</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="tab" href="#Implementlab1">Implement</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- tab panes -->
+            <div class="tab-content">
+              <div id="Requirementlab1" class="container tab-pane active">
+                <div class="container" id="re">
+                  <table  class="table table-dark table-hover " style="width:100%;">
+                    <thead>
+                      <tr style="font-size: 20px;">
+                        <td id="stt" style="width: 100px;">Stt</td>
+                        <td>Yêu cầu</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td id="stt">1</td>
+                        <td>Chọn 1 đối tượng bất kỳ trong thế giới thực, ví dụ
+                            như sinh viên, môn học, giảng viên,… để thiết kế trên phần
+                            mềm một chức năng trên web để thêm, sửa, xóa, tìm kiếm
+                            cho đối tượng đó.</td>
+                      </tr>
+                      <tr>
+                        <td id="stt">2</td>
+                        <td>Upload tất cả lên Azure / github trong menu Lab1 theo thứ tự:
+                          <ul style="padding-left: 30px;">
+                            <li>Tab Yêu cầu: copy lại nội dung của phần 1 vào đây (trình bày cho đẹp)</li>
+                              <li>Tab Thiết kế: để link tới các file sau đây:
+                                <ul style="padding-left: 30px;">
+                                  <li>Thiết kế trên giấy (chụp lại ảnh)</li>
+                                  <li>Thiết kế trên phần mềm thiết kế</li>
+                                </ul>
+                              </li>
+                              <li>Tab Hiện thực: chuyển tất cả thiết kế ở trên ở trên sang html</li>
+                          </ul>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <!-- design -->
+              <div id="Designlab1" class="container tab-pane fade">
+                <div class="lab">
+                  <div class="panel-group">
+                    <div class="panel panel-info">
+                      <div class="panel-heading"><h3 id="tk">Thiết kế trên giấy</h3></div>
+                      <div class="panel-body">
+                        <div class="fluid-container">
+                          <div class="row">
+                            <div class="col-sm-10">
+                              <img id="image" src="17130198_Design\imagelab4\design.png" alt=""><br>
+                            </div>
+                            <div class="col-sm-2">
+                              <button style=" margin-top: 500px; width: 100%; height: 70px;" class="btn btn-primary" type="button" name="button">
+                                  <a href="https://github.com/TaiBui349/buivantai1705.github.io/blob/master/17130198_Design\imagelab4\design.png" target="_blank" style="font-size: 22px;"> Download <i class="fa fa-download"></i> </a>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <br>
+                    <div class="panel panel-info">
+                      <div class="panel-heading"><h3 id="tk">Thiết kế trên figma</h3></div>
+                      <div class="panel-body">
+                        <div class="fluid-container">
+                          <div class="row">
+                            <div class="col-sm-10">
+                              <img id="image" src="17130198_Design\imagelab4\figma.png" alt=""><br>
+                            </div>
+                            <div class="col-sm-2">
+                              <button style=" margin-top: 400px;  width: 100%; height: 70px;" class="btn btn-primary" type="button" name="button">
+                                    <a href="https://github.com/TaiBui349/buivantai1705.github.io/blob/master/17130198_Design\imagelab4\lab4.fig" target="_blank" style="font-size: 22px;">Download <i class="fa fa-download"></i></a>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
 
-            <div class="container" id="re">
-              <table  class="table table-dark table-hover " style="width:100%;">
-                <thead>
-                  <tr style="font-size: 20px;">
-                    <td id="stt" style="width: 100px;">Stt</td>
-                    <td>Yêu cầu</td>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td id="stt">1</td>
-                    <td>Chọn 1 đối tượng bất kỳ trong thế giới thực, ví dụ
-                        như sinh viên, môn học, giảng viên,… để thiết kế trên phần
-                        mềm một chức năng trên web để thêm, sửa, xóa, tìm kiếm
-                        cho đối tượng đó.</td>
-                  </tr>
-                  <tr>
-                    <td id="stt">2</td>
-                    <td>Upload tất cả lên Azure / github trong menu Lab1 theo thứ tự:
-                      <ul style="padding-left: 30px;">
-                        <li>Tab Yêu cầu: copy lại nội dung của phần 1 vào đây (trình bày cho đẹp)</li>
-                          <li>Tab Thiết kế: để link tới các file sau đây:
-                            <ul style="padding-left: 30px;">
-                              <li>Thiết kế trên giấy (chụp lại ảnh)</li>
-                              <li>Thiết kế trên phần mềm thiết kế</li>
-                            </ul>
-                          </li>
-                          <li>Tab Hiện thực: chuyển tất cả thiết kế ở trên ở trên sang html</li>
-                      </ul>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+                  </div>
+                </div>
+              </div>
+
+              <!-- implement -->
+              <div id="Implementlab1" class="fluid-container tab-pane fade">
+                <div class="container">
+                  <div class="panel panel-group">
+                    <div class="panel panel-info">
+                      <div class="panel-heading" style="font-size: 24px;">
+                        Thêm sinh viên mới
+                      </div>
+                      <div class="panel-body">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-sm-3">
+
+                            </div>
+                            <div class="col-sm-6" style="border: 1px solid black">
+                              <form action="#" method="post" >
+                                <h2 style="text-align: center"> <strong>THÊM SINH VIÊN MỚI</strong> </h2> <hr>
+                                <div class="form-inline">
+                                  <label>Mã sinh viện:  </label> &emsp;
+                                  <input style="width: 79%" type="text" name="Username" placeholder="Mã sinh viên" class="form-control" required>
+                                </div>
+                                <br>
+                                <div class="form-inline">
+                                  <label>Tên sinh viên: </label> &emsp;
+                                  <input style="width: 79%" type="text" name="" value="" placeholder="Tên sinh viên" class="form-control" required>
+                                </div>
+                                <br>
+                                <div class="form-inline">
+                                  <label>Giới tính: </label> &emsp;&emsp; &emsp;&ensp;
+                                  <!-- <input style="width: 78%" type="text" name="identity card" value="" placeholder="Identity Card" class="form-control" required> -->
+                                  <select class="custom-select custom-select-lg mb-3" name="cars" >
+                                    <option value="Nam">Nam</option>
+                                    <option value="Nữ">Nữ</option>
+                                  </select>
+                                </div>
+                                <br>
+                                <div class="form-inline">
+                                  <label for="sdt">Ngày sinh: </label> &emsp;&emsp;
+                                  <input style="width: 80%" type="text" name="" value="" placeholder="Ngày sinh" class="form-control" required  >
+                                </div>
+                                <br>
+                                <div class="form-inline">
+                                  <label>Lớp: </label> &emsp;&emsp;&emsp; &emsp;&emsp;
+                                  <input style="width: 80%" type="email" name="Email" value="" placeholder="Lớp" class="form-control" required>
+                                </div>
+                                <br>
+                                <div class="form-inline">
+                                  <label>Khoa: </label> &emsp;&emsp;&emsp; &emsp;&ensp;
+                                  <input style="width: 80%" type="email" name="Email" value="" placeholder="Khoa" class="form-control" required>
+                                </div>
+                                <hr>
+                                <div style="text-align: center">
+                                  <button style=" font-size: 15px;; text-align: center" type="submit" class="btn btn-success"><i class="fas fa-angle-double-left"></i>&ensp;Quay lại</button> &emsp;&emsp;
+                                  <button style=" font-size: 20px;; text-align: center" type="submit" class="btn btn-success"><i class="fas fa-plus"></i>&ensp;Thêm</button>&emsp;&emsp;
+                                  <button style=" font-size: 15px;; text-align: center" type="submit" class="btn btn-success">Tiếp theo&ensp;<i class="fas fa-angle-double-right"></i></button>
+                                </div>
+
+
+                                <br><br>
+                              </form>
+                            </div>
+                            <div class="col-sm-3">
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-info">
+                      <div class="panel-heading" style="font-size: 24px;">
+                        Sửa thông tin sinh viên
+                      </div>
+                      <div class="panel-body">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-sm-3">
+
+                            </div>
+                            <div class="col-sm-6" style="border: 1px solid black">
+                              <form action="index.html" method="post">
+                                <h2 style="text-align: center"><strong>SỬA THÔNG TIN</strong></h2>
+                                <hr>
+                                <div class="form-inline">
+                                  <label>Mã sinh viên:   </label> &emsp;
+                                  <input style="width: 79%" type="text" name="Ma" placeholder="Mã sinh viên" class="form-control" required>
+                                </div>
+                                <br>
+                                <div class="form-inline">
+                                  <label>Tên sinh viên: </label> &emsp;
+                                  <input style="width: 78%" type="text" name="Ten" value="" placeholder="Tên sinh viên" class="form-control" required>
+                                </div>
+                                <br>
+                                <div class="form-inline" >
+                                  <label>Giới tính: </label>  &emsp;&emsp;&emsp;&ensp;
+                                  <select name="cars" class="custom-select custom-select-lg mb-3" >
+                                    <option value="Nam">Nam</option>
+                                    <option value="Nữ">Nữ</option>
+                                  </select>
+                                </div>
+                                <br>
+                                <div class="form-inline">
+                                  <label for="sdt">Ngày sinh:  &ensp;&ensp;</label> &emsp;
+                                  <input style="width: 79%" type="text" name="Ngay sinh" value="" placeholder="Ngày sinh" class="form-control" required>
+                                </div>
+                                <br>
+                                <div class="form-inline">
+                                  <label>Lớp: </label> &emsp;&emsp;&emsp;&emsp;&emsp;
+                                  <input style="width: 80%" type="email" name="Lop" value="" placeholder="Lớp" class="form-control" required>
+                                </div>
+                                <br>
+                                <div class="form-inline">
+                                  <label>Khoa: </label> &emsp;&emsp;&emsp;&emsp;&ensp;
+                                  <input style="width: 80%" type="email" name="Khoa" value="" placeholder="Khoa" class="form-control"  required>
+                                </div>
+                                <hr>
+                                <div style="text-align: center">
+                                  <button style=" font-size: 15px;" type="submit" class="btn btn-success"><i class="fas fa-angle-double-left"></i>&ensp;Quay lại</button> &emsp;&emsp;
+                                  <button style=" font-size: 20px;" type="submit" class="btn btn-success"><i class="fas fa-edit"></i>&ensp;Sửa</button>&emsp;&emsp;
+                                  <button style=" font-size: 15px" type="submit" class="btn btn-success">Tiếp theo&ensp;<i class="fas fa-angle-double-right"></i></button>
+                                </div>
+
+                                <br><br>
+                              </form>
+                            </div>
+                            <div class="col-sm-3">
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-info">
+                      <div class="panel-heading" style="font-size: 24px;">
+                        Xóa sinh viên
+                      </div>
+                      <div class="panel-body">
+                              <div class="container">
+                                <h2 style="text-align: center"> <strong>Xóa sinh viên</strong> </h2><hr>
+                                <table class="table table-bordered" style="text-align: center">
+                                  <thead >
+                                    <tr>
+                                      <th style="text-align: center">Mã sinh viên</th>
+                                      <th style="text-align: center">Tên sinh viên</th>
+                                      <th style="text-align: center">Giới tính</th>
+                                      <th style="text-align: center">Ngày sinh</th>
+                                      <th style="text-align: center">Lớp</th>
+                                      <th style="text-align: center">Khoa</th>
+                                      <th style="text-align: center">Thao tác</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td>17130256</td>
+                                      <td>Võ Cao Trịnh</td>
+                                      <td>Nam</td>
+                                      <td>01/06/1999</td>
+                                      <td>DH17DTC</td>
+                                      <td>CNTT</td>
+                                      <td>
+                                        <button title="Xem thông tin" type="submit" name="Thông tin" class="btn btn-info"><i class="fas fa-info-circle"></i></button>
+                                        <button title="Sửa thông tin" type="submit" name="Sửa" class="btn btn-success" data-toggle="modal" data-target="#suathongtin"><i class="fas fa-edit"></i></button>
+                                        <button title="Xóa" type="submit" name="Xóa" class="btn btn-danger" data-toggle="modal" data-target="#thaotac"><i class="far fa-trash-alt"></i></button>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>17130197</td>
+                                      <td>Đào Tiến Sỹ</td>
+                                      <td>Nam</td>
+                                      <td>15/07/1999</td>
+                                      <td>DH17DTC</td>
+                                      <td>CNTT</td>
+                                      <td>
+                                        <button title="Xem thông tin" type="submit" name="Thông tin" class="btn btn-info"><i class="fas fa-info-circle"></i></button>
+                                        <button title="Sửa thông tin" type="submit" name="Sửa" class="btn btn-success" data-toggle="modal" data-target="#suathongtin"><i class="fas fa-edit"></i></button>
+                                        <button title="Xóa" type="submit" name="Xóa" class="btn btn-danger" data-toggle="modal" data-target="#thaotac"><i class="far fa-trash-alt"></i></button>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>17130198</td>
+                                      <td>Bùi Văn Tài</td>
+                                      <td>Nam</td>
+                                      <td>17/05/1999</td>
+                                      <td>DH17DTC</td>
+                                      <td>CNTT</td>
+                                      <td>
+                                        <button title="Xem thông tin" type="submit" name="Thông tin" class="btn btn-info"><i class="fas fa-info-circle"></i></button>
+                                        <button title="Sửa thông tin" type="submit" name="Sửa" class="btn btn-success" data-toggle="modal" data-target="#suathongtin"><i class="fas fa-edit"></i></button>
+                                        <button title="Xóa" type="submit" name="Xóa" class="btn btn-danger" data-toggle="modal" data-target="#thaotac"><i class="far fa-trash-alt"></i></button>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>17130271</td>
+                                      <td>Nguyễn Doãn Hoàng Việt</td>
+                                      <td>Nam</td>
+                                      <td>01/06/1999</td>
+                                      <td>DH17DTC</td>
+                                      <td>CNTT</td>
+                                      <td>
+                                        <button title="Xem thông tin" type="submit" name="Thông tin" class="btn btn-info"><i class="fas fa-info-circle"></i></button>
+                                        <button title="Sửa thông tin" type="submit" name="Sửa" class="btn btn-success" data-toggle="modal" data-target="#suathongtin"><i class="fas fa-edit"></i></button>
+                                        <button title="Xóa" type="submit" name="Xóa" class="btn btn-danger" data-toggle="modal" data-target="#thaotac"><i class="far fa-trash-alt"></i></button>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                <!-- Modal -->
+                                <div class="modal fade" id="thaotac">
+                                  <div class="modal-dialog">
+                                    <div class="modal-content">
+
+                                      <div class="modal-header">
+                                        <h4 class="modal-title">Thông báo</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                      </div>
+                                      <div class="modal-body">
+                                        Bạn có chắc chắn muốn xóa sinh viên này?
+                                      </div>
+
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-info" data-dismiss="modal">Hủy</button>
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Đồng ý</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="modal fade" id="suathongtin">
+                                  <div class="modal-dialog">
+                                    <div class="modal-content">
+
+                                      <div class="modal-header">
+                                        <h4 class="modal-title">Thông báo</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                      </div>
+                                      <div class="modal-body">
+                                        <form action="index.html" method="post">
+                                          <div class="form-inline">
+                                            <label>Mã sinh viên:   </label> &emsp;
+                                            <input style="width: 79%" type="text" name="Ma" placeholder="Mã sinh viên" class="form-control" required>
+                                          </div>
+                                          <br>
+                                          <div class="form-inline">
+                                            <label>Tên sinh viên: </label> &emsp;
+                                            <input style="width: 78%" type="text" name="Ten" value="" placeholder="Tên sinh viên" class="form-control" required>
+                                          </div>
+                                          <br>
+                                          <div class="form-inline" >
+                                            <label>Giới tính: </label>  &emsp;&emsp;&emsp;&ensp;
+                                            <select name="cars" class="custom-select custom-select-lg mb-3" >
+                                              <option value="Nam">Nam</option>
+                                              <option value="Nữ">Nữ</option>
+                                            </select>
+                                          </div>
+                                          <br>
+                                          <div class="form-inline">
+                                            <label for="sdt">Ngày sinh:  &ensp;&ensp;</label> &emsp;
+                                            <input style="width: 79%" type="text" name="Ngay sinh" value="" placeholder="Ngày sinh" class="form-control" required>
+                                          </div>
+                                          <br>
+                                          <div class="form-inline">
+                                            <label>Lớp: </label> &emsp;&emsp;&emsp;&emsp;&emsp;
+                                            <input style="width: 80%" type="email" name="Lop" value="" placeholder="Lớp" class="form-control" required>
+                                          </div>
+                                          <br>
+                                          <div class="form-inline">
+                                            <label>Khoa: </label> &emsp;&emsp;&emsp;&emsp;&ensp;
+                                            <input style="width: 80%" type="email" name="Khoa" value="" placeholder="Khoa" class="form-control"  required>
+                                          </div>
+                                        </form>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-success" data-dismiss="modal"><i class="fas fa-edit"></i>&ensp;Sửa</button> &emsp;
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Hủy</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                      </div>
+                    </div>
+
+                    <div class="panel panel-info">
+                      <div class="panel-heading" style="font-size: 24px;">
+                        Tìm kiếm sinh viên
+                      </div>
+                      <div class="panel-body">
+                              <div class="container">
+                                <div class="row">
+                                  <div class="col-sm-3">
+
+                                  </div>
+                                  <div class="col-sm-6" style="border: 1px solid black">
+                                    <form action="index.html" method="post">
+                                      <h2 style="text-align: center"><strong>Tìm Kiếm sinh viên</strong></h2>
+                                      <hr>
+                                      <div class="form-inline">
+                                        <label>Mã sinh viên:   </label> &emsp;
+                                        <input style="width: 79%" type="text" name="Ma" placeholder="Mã sinh viên" class="form-control" required>
+                                      </div>
+                                      <br>
+                                      <div class="form-inline" >
+                                        <label>Giới tính: </label>  &emsp;&emsp;&emsp;&ensp;
+                                        <select name="cars" class="custom-select custom-select-lg mb-3" >
+                                          <option value="Nam">Nam</option>
+                                          <option value="Nữ">Nữ</option>
+                                        </select>
+                                      </div>
+                                      <br>
+                                      <div class="form-inline">
+                                        <label>Lớp: </label> &emsp;&emsp;&emsp;&emsp;&emsp;
+                                        <input style="width: 80%" type="email" name="Lop" value="" placeholder="Lớp" class="form-control" required>
+                                      </div>
+                                      <br>
+                                      <div class="form-inline">
+                                        <label>Khoa: </label> &emsp;&emsp;&emsp;&emsp;&ensp;
+                                        <input style="width: 80%" type="email" name="Khoa" value="" placeholder="Khoa" class="form-control"  required>
+                                      </div>
+                                      <hr>
+                                      <div style="text-align: center">
+                                        <button style=" font-size: 15px;" type="submit" class="btn btn-success"><i class="fas fa-angle-double-left"></i>&ensp;Quay lại</button> &emsp;&emsp;
+                                        <button style=" font-size: 20px;" type="submit" class="btn btn-success">Tìm &ensp;<i class="fas fa-search"></i></button>&emsp;&emsp;
+                                        <button style=" font-size: 15px" type="submit" class="btn btn-success">Tiếp theo&ensp;<i class="fas fa-angle-double-right"></i></button>
+                                      </div>
+
+                                      <br><br>
+                                    </form>
+                                  </div>
+                                  <div class="col-sm-3">
+
+                                  </div>
+                                </div>
+                              </div>
+                      </div>
+                    </div>
+
+
+                  </div>
+                </div>
+
+              </div>
             </div>
-      </div>
 
+      </div>
 
 
 
