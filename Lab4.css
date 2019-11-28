@@ -248,7 +248,7 @@ ul.breadcrumb li a:hover {
   overflow: hidden;
 }
 #inform a img:hover{
-  transform: scale(0.5);
+  transform: scale(0.75);
   transition: 2s;
 }
 .font-weight-bold   { font-weight: $font-weight-bold !important; }
