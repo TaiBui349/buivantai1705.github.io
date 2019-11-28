@@ -22,7 +22,7 @@ table, thead, tbody, tr, td{
 #me{
   margin-top: 1px;
   justify-content: flex-end;
-  font-size: 20px;
+  font-size: 24px;
 }
 #me a{
   color: white;
@@ -30,6 +30,7 @@ table, thead, tbody, tr, td{
 #me a:hover{
   color: blue;
 }
+
 .name{
   position: absolute;
   color: white;
