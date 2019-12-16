@@ -2,21 +2,18 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Requirement</title>
+    <title>Lab 2</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="Implement.css">
+    <link rel="stylesheet" href="Lab2.css">
     <style>
-      #image{
-        width: 700px;
-        height: 500px;
-      }
-
-      /* table, tr, td{
-        border: 2px solid black;
-      } */
       table td{
         border: 1px solid white;
       }
@@ -56,59 +53,521 @@
           </div>
         </div>
 
-        <h2 style="text-align: center; margin-top: 20px;">Lab 2</h2>
+
 
         <div class="container">
-          <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="padding-bottom : 10px; width: 450px;">
-                <ul class="nav nav-tabs nav-fill">
-                    <li class="nav-item">
-                        <a class="nav-link" href="Lab2.html">Requirement</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="UserScenario.html">User Scenario</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Designlab2.html">Design</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Implement2.html">Implement</a>
-                    </li>
-                </ul>
-            </nav>
+            <h2 style="text-align: center; margin-top: 20px;">Lab 2</h2>
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center"  style="padding-bottom : 10px; width: 450px; ">
+                  <ul class="nav nav-tabs nav-fill" role="tablist">
+                      <li class="nav-item" role="presentation">
+                          <a class="nav-link active" data-toggle="tab" href="#Requirementlab2">Requirement</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#UserScenariolab2">User Scenario</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#Designlab2">Design</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#Implementlab2">Implement</a>
+                      </li>
+                  </ul>
+              </nav>
+              <!-- tab panes -->
+              <div class="tab-content">
+                <div id="Requirementlab2" class="container tab-pane active">
+                  <div class="container" id="re">
+                    <table  class="table table-dark table-hover">
+                      <thead>
+                        <tr style="font-size: 20px;">
+                          <td id="stt" style="width: 100px;">Stt</td>
+                          <td>Yêu cầu</td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td id="stt">1</td>
+                          <td>(1) Tạo ra một user scenario</td>
+                        </tr>
+                        <tr>
+                          <td id="stt">2</td>
+                          <td>(2) Chọn 1 bước trong user scenario để thiết kế 1 form giao diện
+                            Web trên công cụ thiết kế đã chọn. Sau đó tạo ra file html tương
+                            ứng cho thiết kế này.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td id="stt">3</td>
+                          <td> Upload lên Azure / github: trong file html có chèn hình ảnh của
+                            user scenario ở (1) và đường dẫn của file thiết kế ở (2).
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <!-- User Scenario -->
+                <div id="UserScenariolab2" class="container tab-pane fade">
+                  <div class="panel panel-info">
+                    <div class="panel-heading">
+                      <h2>User Scenario</h2>
+                    </div>
+                    <div class="panel-body">
+                      <img style="width: 100%" id="image" src="17130198_Design\imagelab2\user.png" alt="">
+                      <button style="margin-left: 40%; height: 50px;" class="btn btn-primary" type="button" name="button">
+                        <a href="https://github.com/TaiBui349/buivantai1705.github.io/blob/master/17130198_Design/imagelab2/user.png" target="_blank" style="color: black; text-decoration: none;">Download <i class="fa fa-download"></i> </a>
+                      </button>
+                      </div>
+                    </div>
+                </div>
+                <!-- design -->
+                <div id="Designlab2" class="container tab-pane fade">
+                  <div class="lab">
+                    <div class="panel-group">
+                      <div class="panel panel-info">
+                        <div class="panel-heading"><h3 id="tk">Thiết kế trên giấy</h3></div>
+                        <div class="panel-body">
+                          <div class="fluid-container">
+                            <div class="row">
+                              <div class="col-sm-10">
+                                <img id="image" src="17130198_Design\imagelab2\design.png" alt=""><hr>
+                              </div>
+                              <div class="col-sm-2">
+                                <button style=" margin-top: 550px;  width: 100%; height: 60px;" class="btn btn-primary" type="button" name="button">
+                                      <a href="https://github.com/TaiBui349/buivantai1705.github.io/blob/master/17130198_Design/imagelab2/design.png" target="_blank" style="font-size: 18px;">Download <i class="fa fa-download"></i></a>
+                                </button>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-info">
+                      <div class="panel-heading"><h3 id="tk">Thiết kế trên figma</h3></div>
+                      <div class="panel-body">
+                        <div class="fluid-container">
+                          <div class="row">
+                            <div class="col-sm-10">
+                              <img id="image" src="17130198_Design\imagelab2\d3.png" alt=""><hr>
+                            </div>
+                            <div class="col-sm-2">
+                              <button style=" margin-top: 550px;  width: 100%; height: 60px;" class="btn btn-primary" type="button" name="button">
+                                    <a href="https://github.com/TaiBui349/buivantai1705.github.io/blob/master/17130198_Design\imagelab2\lab2.fig" target="_blank" style="font-size: 18px;">Download <i class="fa fa-download"></i></a>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
+                <!-- implement -->
+                <div id="Implementlab2" class="fluid-container tab-pane fade">
+                  <div class="container">
+                    <div class="fluid-container" style="background-color: #192536; border: 1px solid black;">
+                      <div class="header">
+                        <a href="Lab2.html">Love Music</a>
+                        <div class="fluid-container">
+                          <form class="navbar-form" action="" style="margin-left: 100px;">
+                            <div class="input-group">
+                              <input class="form-control" type="text" placeholder="Nhập tên bài hát, ca sĩ hoặc mv ..." style="width: 450px; height: 40px;">
+                              <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit"style="height: 40px;"><i class="glyphicon glyphicon-search"></i> </button>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
 
-            <br>
+                      </div>
+                      <img src="17130198_Design\imagelab2\n.png" alt="anh" style="width: 100%; margin: 0; padding: 0;">
 
-        <div class="container" id="re" >
-          <table  class="table table-dark table-hover">
-            <thead>
-              <tr style="font-size: 20px;">
-                <td id="stt" style="width: 100px;">Stt</td>
-                <td>Yêu cầu</td>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td id="stt">1</td>
-                <td>(1) Tạo ra một user scenario</td>
-              </tr>
-              <tr>
-                <td id="stt">2</td>
-                <td>(2) Chọn 1 bước trong user scenario để thiết kế 1 form giao diện
-                  Web trên công cụ thiết kế đã chọn. Sau đó tạo ra file html tương
-                  ứng cho thiết kế này.
-                </td>
-              </tr>
-              <tr>
-                <td id="stt">3</td>
-                <td> Upload lên Azure / github: trong file html có chèn hình ảnh của
-                  user scenario ở (1) và đường dẫn của file thiết kế ở (2).
-                </td>
-              </tr>
-            </tbody>
-          </table>
+                      <ul class="nav nav-tabs nav-fill justify-content-center" role="tablist" style="font-size: 25px;">
+                        <li class="nav-item">
+                          <a class="nav-link active" data-toggle="tab" href="#tq">TỔNG QUAN</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" data-toggle="tab" href="#bh">BÀI HÁT</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" data-toggle="tab" href="#album">ALBUM</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" data-toggle="tab" href="#playlist">PLAYLIST</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" data-toggle="tab" href="#mv">MV</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" data-toggle="tab" href="#tieusu">TIỂU SỬ</a>
+                        </li>
+                      </ul>
+                      <div class="tab-content">
+                        <div id="tq" class="container tab-pane active"><br>
+                            <h2 style="color: white; padding-left: 50px; padding-top: 10px; font-size: 35px;">Album </h2>
+                            <div class="fluid-container">
+                              <div class="row">
+                                <div class="col-md-3" id="ab">
+                                  <img src="17130198_Design\imagelab2\a1.jpg" alt="">
+                                  <h3> <a href="#">Vụt Sáng Thành Vì Sao</a> </h3>
+                                  <p> <a title="Hương Tràm" href="#">Đức Phúc, Hoàng Thùy Linh, ...</a> </p>
+                                </div>
+
+                                <div class="col-md-3" id="ab">
+                                  <img src="17130198_Design\imagelab2\a2.jpg" alt="">
+                                  <h3> <a href="#">Cho Em Gần Anh Thêm Chút Nữa</a> </h3>
+                                  <p> <a title="Hương Tràm" href="#">Võ Đình Hiếu, Bảo Uyên, Hương Tràm</a> </p>
+                                </div>
+
+                                <div class="col-md-3" id="ab">
+                                  <img src="17130198_Design\imagelab2\a3.jpg" alt="">
+                                  <h3> <a href="#">Ngày Cưới</a> </h3>
+                                  <p> <a title="Hương Tràm" href="#">Khắc Việt, Hương Tràm</a> </p>
+                                </div>
+
+                                <div class="col-md-3" id="ab">
+                                  <img src="17130198_Design\imagelab2\a4.jpg" alt="">
+                                  <h3> <a href="#">Vẫn Luôn Mong Chờ</a> </h3>
+                                  <p> <a title="Hương Tràm" href="#">Hương Tràm</a> </p>
+                                </div>
+
+                                <div class="col-md-3" id="ab">
+                                  <img src="17130198_Design\imagelab2\a5.jpg" alt="">
+                                  <h3> <a href="#">Ngốc</a> </h3>
+                                  <p> <a title="Hương Tràm" href="#">Hương Tràm</a> </p>
+                                </div>
+
+                                <div class="col-md-3" id="ab">
+                                  <img src="17130198_Design\imagelab2\a6.jpg" alt="">
+                                  <h3> <a href="#">Cánh Hoa Tàn</a> </h3>
+                                  <p> <a title="Hương Tràm" href="#">Hương Tràm</a> </p>
+                                </div>
+
+                                <div class="col-md-3" id="ab">
+                                  <img src="17130198_Design\imagelab2\a7.jpg" alt="">
+                                  <h3> <a href="#">Hãy Để Em Quên(Ngốc 2)</a> </h3>
+                                  <p> <a title="Hương Tràm" href="#">Hương Tràm</a> </p>
+                                </div>
+
+                                <div class="col-md-3" id="ab">
+                                  <img src="17130198_Design\imagelab2\a8.jpg" alt="">
+                                  <h3> <a href="#">Hãy Mang Đi XA</a> </h3>
+                                  <p> <a title="Hương Tràm" href="#">Hương Tràm</a> </p>
+                                </div>
+                              </div>
+                            </div>
+
+                          <hr>
+
+                            <h2 style="color: white; padding-left: 50px; padding-top: 10px; font-size: 35px;">Video </h2>
+                            <div class="container">
+                                <div class = "row">
+                                  <div class="col-md-3" id="in">
+                                    <img src="17130198_Design\imagelab2\v1.jpg" alt="">
+                                    <h3> <a href="#">Hãy để em quên(Ngốc 2)</a> </h3>
+                                    <p> <a title="Hương Tràm" href="#">Hương Tràm</a> </p>
+                                  </div>
+                                  <div class="col-md-3" id="in">
+                                    <img src="17130198_Design\imagelab2\v2.jpg" alt="">
+                                    <h3> <a href="#">Cánh hoa tàn</a> </h3>
+                                    <p> <a title="Hương Tràm" href="#">Hương Tràm</a> </p>
+                                  </div>
+                                  <div class="col-md-3" id="in">
+                                    <img src="17130198_Design\imagelab2\v3.jpg" alt="">
+                                    <h3> <a href="#">Em gái mưa</a> </h3>
+                                    <p> <a title="Hương Tràm" href="#">Hương Tràm</a> </p>
+                                  </div>
+                                  <div class="col-md-3" id="in">
+                                    <img src="17130198_Design\imagelab2\v4.jpg" alt="">
+                                    <h3> <a href="#">Mùa đông tình yêu</a> </h3>
+                                    <p> <a title="Hương Tràm" href="#">Bùi Anh Tuấn, Hương Tràm</a> </p>
+                                  </div>
+                                  <div class="col-md-3" id="in">
+                                    <img src="17130198_Design\imagelab2\v0.jpg" alt="">
+                                    <h3> <a href="#">Ta còn thuộc về nhau</a></h3>
+                                    <p><a title="Hương Tràm" href="#">Hương Tràm</a> </p>
+                                  </div>
+                                  <div class="col-md-3" id="in">
+                                    <img src="17130198_Design\imagelab2\v5.jpg" alt="">
+                                    <h3> <a href="#">Ngại ngùng</a> </h3>
+                                    <p> <a title="Hương Tràm" href="#">Hương Tràm</a> </p>
+                                  </div>
+                                  <div class="col-md-3" id="in">
+                                    <img src="17130198_Design\imagelab2\v6.jpg" alt="">
+                                    <h3> <a href="#">Sẽ có người cần anh</a> </h3>
+                                    <p> <a title="Hương Tràm" href="#">Cao Thái Sơn, Hương Tràm</a> </p>
+                                  </div>
+                                  <div class="col-md-3" id="in">
+                                    <img src="17130198_Design\imagelab2\v7.jpg" alt="">
+                                    <h3> <a href="#">Xa</a> </h3>
+                                    <p> <a title="Hương Tràm" href="#">Hương Tràm</a> </p>
+                                  </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div id="bh" class="container tab-pane fade"><br>
+                          <h2 style="color: white; padding-left: 10px; padding-top: 10px">Bài Hát</h2>
+                          <div class="fluid-container">
+                            <table class="table table-borderless" style="color: white">
+                              <tbody>
+                                <tr>
+                                  <td>Cánh Hoa Tàn (Mẹ Chồng OST) - Hương Tràm</td>
+                                  <td>
+                                    <div class="icon">
+                                      <i class="far fa-heart"></i>
+                                      <i class="fas fa-share-square"></i>
+                                      <i class="fas fa-plus-circle"></i>
+                                      <i class="fas fa-download"></i>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>Người Từng Yêu Anh Rất Sâu Nặng - Cao Thái Sơn, Hương Tràm</td>
+                                  <td>
+                                    <div class="icon">
+                                      <i class="far fa-heart"></i>
+                                      <i class="fas fa-share-square"></i>
+                                      <i class="fas fa-plus-circle"></i>
+                                      <i class="fas fa-download"></i>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>Sẽ có Người Cần Anh - Hương Tràm</td>
+                                  <td>
+                                    <div class="icon">
+                                      <i class="far fa-heart"></i>
+                                      <i class="fas fa-share-square"></i>
+                                      <i class="fas fa-plus-circle"></i>
+                                      <i class="fas fa-download"></i>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>Hãy Để Em Quên (Ngốc 2) - Hương Tràm</td>
+                                  <td>
+                                    <div class="icon">
+                                      <i class="far fa-heart"></i>
+                                      <i class="fas fa-share-square"></i>
+                                      <i class="fas fa-plus-circle"></i>
+                                      <i class="fas fa-download"></i>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>Lời Hứa - The Men, Hương Tràm</td>
+                                  <td>
+                                    <div class="icon">
+                                      <i class="far fa-heart"></i>
+                                      <i class="fas fa-share-square"></i>
+                                      <i class="fas fa-plus-circle"></i>
+                                      <i class="fas fa-download"></i>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>Em Vẫn Chờ - Hương Tràm</td>
+                                  <td>
+                                    <div class="icon">
+                                      <i class="far fa-heart"></i>
+                                      <i class="fas fa-share-square"></i>
+                                      <i class="fas fa-plus-circle"></i>
+                                      <i class="fas fa-download"></i>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>Ai Đắng Sau Lưng Em - Trịnh Thăng Bình, Hương Tràm</td>
+                                  <td>
+                                    <div class="icon">
+                                      <i class="far fa-heart"></i>
+                                      <i class="fas fa-share-square"></i>
+                                      <i class="fas fa-plus-circle"></i>
+                                      <i class="fas fa-download"></i>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>Ngày Cưới - Khắc Việt, Hương Tràm</td>
+                                  <td>
+                                    <div class="icon">
+                                      <i class="far fa-heart"></i>
+                                      <i class="fas fa-share-square"></i>
+                                      <i class="fas fa-plus-circle"></i>
+                                      <i class="fas fa-download"></i>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>Ngại Ngùng - Hương Tràm</td>
+                                  <td>
+                                    <div class="icon">
+                                      <i class="far fa-heart"></i>
+                                      <i class="fas fa-share-square"></i>
+                                      <i class="fas fa-plus-circle"></i>
+                                      <i class="fas fa-download"></i>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </tbody>
+
+                            </table>
+                          </div>
+                        </div>
+                        <div id="album" class="container tab-pane fade"><br>
+                          <h2 style="color: white; padding-left: 100px; padding-top: 10px">Album </h2>
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-md-3" id="ab">
+                                <img src="17130198_Design\imagelab2\a1.jpg" alt="">
+                                <h3> <a href="#">Vụt Sáng Thành Vì Sao</a> </h3>
+                                <p> <a title="Hương Tràm" href="#">Đức Phúc, Hoàng Thùy Linh, ...</a> </p>
+                              </div>
+
+                              <div class="col-md-3" id="ab">
+                                <img src="17130198_Design\imagelab2\a2.jpg" alt="">
+                                <h3> <a href="#">Cho Em Gần Anh Thêm Chút Nữa</a> </h3>
+                                <p> <a title="Hương Tràm" href="#">Võ Đình Hiếu, Bảo Uyên, Hương Tràm</a> </p>
+                              </div>
+
+                              <div class="col-md-3" id="ab">
+                                <img src="17130198_Design\imagelab2\a3.jpg" alt="">
+                                <h3> <a href="#">Ngày Cưới</a> </h3>
+                                <p> <a title="Hương Tràm" href="#">Khắc Việt, Hương Tràm</a> </p>
+                              </div>
+
+                              <div class="col-md-3" id="ab">
+                                <img src="17130198_Design\imagelab2\a4.jpg" alt="">
+                                <h3> <a href="#">Vẫn Luôn Mong Chờ</a> </h3>
+                                <p> <a title="Hương Tràm" href="#">Hương Tràm</a> </p>
+                              </div>
+
+                              <div class="col-md-3" id="ab">
+                                <img src="17130198_Design\imagelab2\a5.jpg" alt="">
+                                <h3> <a href="#">Ngốc</a> </h3>
+                                <p> <a title="Hương Tràm" href="#">Hương Tràm</a> </p>
+                              </div>
+
+                              <div class="col-md-3" id="ab">
+                                <img src="17130198_Design\imagelab2\a6.jpg" alt="">
+                                <h3> <a href="#">Cánh Hoa Tàn</a> </h3>
+                                <p> <a title="Hương Tràm" href="#">Hương Tràm</a> </p>
+                              </div>
+
+                              <div class="col-md-3" id="ab">
+                                <img src="17130198_Design\imagelab2\a7.jpg" alt="">
+                                <h3> <a href="#">Hãy Để Em Quên(Ngốc 2)</a> </h3>
+                                <p> <a title="Hương Tràm" href="#">Hương Tràm</a> </p>
+                              </div>
+
+                              <div class="col-md-3" id="ab">
+                                <img src="17130198_Design\imagelab2\a8.jpg" alt="">
+                                <h3> <a href="#">Hãy Mang Đi XA</a> </h3>
+                                <p> <a title="Hương Tràm" href="#">Hương Tràm</a> </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div id="playlist" class="container tab-pane fade"><br>
+                          <div class="fluid-container">
+                            <div class="row" id="in">
+                              <div class="col-md-3" >
+                                <img src="17130198_Design\imagelab2\p.jpg" alt="">
+                                <h3> <a href="#">Những Bài Hát Hay Nhất Của Hương Tràm</a> </h3>
+                              </div>
+                              <div class="col-md-3">
+
+                              </div>
+                              <div class="col-md-3">
+
+                              </div>
+                              <div class="col-md-3">
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div id="mv" class="container tab-pane fade"><br>
+                          <h2 style="color: white; padding-left: 50px; padding-top: 10px">Video </h2>
+                          <div class="fluid-container">
+                              <div class = "row">
+                                <div class="col-md-3" id="in">
+                                  <img src="17130198_Design\imagelab2\v1.jpg" alt="">
+                                  <h3> <a href="#">Hãy để em quên(Ngốc 2)</a> </h3>
+                                  <p> <a title="Hương Tràm" href="#">Hương Tràm</a> </p>
+                                </div>
+                                <div class="col-md-3" id="in">
+                                  <img src="17130198_Design\imagelab2\v2.jpg" alt="">
+                                  <h3> <a href="#">Cánh hoa tàn</a> </h3>
+                                  <p> <a title="Hương Tràm" href="#">Hương Tràm</a> </p>
+                                </div>
+                                <div class="col-md-3" id="in">
+                                  <img src="17130198_Design\imagelab2\v3.jpg" alt="">
+                                  <h3> <a href="#">Em gái mưa</a> </h3>
+                                  <p> <a title="Hương Tràm" href="#">Hương Tràm</a> </p>
+                                </div>
+                                <div class="col-md-3" id="in">
+                                  <img src="17130198_Design\imagelab2\v4.jpg" alt="">
+                                  <h3> <a href="#">Mùa đông tình yêu</a> </h3>
+                                  <p> <a title="Hương Tràm" href="#">Bùi Anh Tuấn, Hương Tràm</a> </p>
+                                </div>
+                                <div class="col-md-3" id="in">
+                                  <img src="17130198_Design\imagelab2\v0.jpg" alt="">
+                                  <h3> <a href="#">Ta còn thuộc về nhau</a></h3>
+                                  <p><a title="Hương Tràm" href="#">Hương Tràm</a> </p>
+                                </div>
+                                <div class="col-md-3" id="in">
+                                  <img src="17130198_Design\imagelab2\v5.jpg" alt="">
+                                  <h3> <a href="#">Ngại ngùng</a> </h3>
+                                  <p> <a title="Hương Tràm" href="#">Hương Tràm</a> </p>
+                                </div>
+                                <div class="col-md-3" id="in">
+                                  <img src="17130198_Design\imagelab2\v6.jpg" alt="">
+                                  <h3> <a href="#">Sẽ có người cần anh</a> </h3>
+                                  <p> <a title="Hương Tràm" href="#">Cao Thái Sơn, Hương Tràm</a> </p>
+                                </div>
+                                <div class="col-md-3" id="in">
+                                  <img src="17130198_Design\imagelab2\v7.jpg" alt="">
+                                  <h3> <a href="#">Xa</a> </h3>
+                                  <p> <a title="Hương Tràm" href="#">Hương Tràm</a> </p>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div id="tieusu" class="container tab-pane fade"><br>
+                          <div class="ts" style="">
+                            <h1 style="padding-top: 10px; padding-bottom: 10px">Tiểu Sử Hương Tràm</h1>
+                            <p><strong>Tên thật:</strong> Phạm Thị Hương Tràm</p>
+                            <p><strong>Nghệ danh:</strong> Hương Tràm</p>
+                            <p><strong>Nickname:</strong> Hương Tràm</p>
+                            <p><strong>Ngày sinh:</strong> 15/05/1995</p>
+                            <p><strong>Quê quán:</strong> Nghệ An</p>
+                            <p><strong>Quốc gia:</strong> Đang cập nhật</p>
+                            <p><strong>Giải thưởng:</strong></p>
+                              Ngày 13/01/2013, Hương Tràm chính thức trở thành quán quân đầu tiên của Giọng Hát Việt.
+                              Với ngôi vị quán quân, cô gái Nghệ An sẽ nhận được giải thưởng 500 triệu đồng tiền mặt,
+                              200 triệu tiền sản phẩm của nhà tài trợ và một chuyến du lịch Hàn Quốc 7 ngày. Ngoài ra,
+                              cô còn được sở hữu một hợp đồng ghi âm khủng với hãng đĩa quốc tế.
+                            <p><strong>Thông tin thêm:</strong></p>
+                              Hương Tràm sinh tại Nghệ An trong một gia đình có truyền thống nghệ thuật.
+                              Hương Tràm chính là quán quân mùa đầu tiên của Giọng Hát Việt 2012. Một cô gái nhỏ nhắn nhưng với giọng hát vô cùng nội lực.
+                              Thế mạnh của Hương Tràm là những ca khúc ballad, tuy nhiên thời gian gần đây Hương Tràm thay đổi với phong cách sexy nóng bỏng cùng những ca khúc nhạc dance sôi động.
+                           </div>
+                           <br>
+                        </div>
+                      </div>
+                      <div class="container" id="sign-up">
+                        <div id="page"> Find me on social media. </div>
+                        <a href="https://www.facebook.com/" target="_blank"> <i class="fa fa-facebook-square fa-4x" style="color: white;"></i> </a>
+                        <a href="https://twitter.com/?lang=vi" target="_blank"> <i class="fa fa-twitter-square fa-4x" style="color: white;"></i> </a>
+                        <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"> <i class="fa fa-google-plus-square fa-4x" style="color: white;"></i> </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
         </div>
-        </div>
+
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>

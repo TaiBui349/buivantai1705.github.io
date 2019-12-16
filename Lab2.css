@@ -1,0 +1,64 @@
+.header{
+  font-size: 22px;
+  font-family: monospace;
+  /* display cho nó dãn ra khi sd menu */
+  text-decoration: none;
+  display: flex;
+  list-style-type: none;
+
+}
+.header a{
+  color:white;
+  height: 50px;
+  font-size: 40px;
+  padding-left: 30px;
+  text-decoration: none;
+}
+#ab{
+  padding-left: 60px;
+  padding-top: 10px;
+
+}
+#ab a{
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+#ab a:hover{
+  color: #21B685;
+}
+#ab p a{
+  font-size: 13px;
+}
+#ab img{
+  width: 100%;
+}
+#in{
+  padding-left: 60px;
+  padding-top: 10px;
+}
+#in a{
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+#in a:hover{
+  color: #21B685;
+}
+#in p a{
+  font-size: 13px;
+  color: silver;
+}
+#in img{
+  width: 100%;
+}
+.icon{
+  font-size: 15px;
+  float: right;
+}
+.icon i{
+  padding-left: 9px;
+}
+.ts{
+  color: white; padding-left: 20px; font-size:15px;
+}
