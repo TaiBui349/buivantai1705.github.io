@@ -268,13 +268,16 @@ p a:hover {
 /* template */
 
 #header {
-    height: 80px;
+/*     height: 80px; */
     width: 100%;
     justify-content: flex-end;
-    padding-right: 200px;
-    font-size: 20px;
+    padding-right: 50px;
+    font-size: 24px;
 }
-
+#header a{
+  margin: 0 2px;
+  color: #FFFF;
+}
 #header a:hover {
     color: blue;
 }
@@ -335,12 +338,18 @@ p a:hover {
     padding-right: 50px;
     display: flex;
     position: absolute;
-    top: 17px;
+    top: 9px;
     justify-content: flex-end;
     width: 100%;
-    font-size: 30px;
+    font-size: 35px;
 }
-
+.iconheader a{
+  margin: 0 10px;
+  color: white;
+}
+.iconheader a:hover{
+  color: blue;
+}
 .namehome {
     display: flex;
     position: absolute;
